@@ -1,10 +1,29 @@
 #desktop-header {
   background-image: url("./images/My-Website-Home-Header.jpg");
   height: 952px;
+  color: white;
+  position: relative;
+  text-align: center;
   /* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
+}
+
+#header-header-text {
+  position: absolute;
+  font-size: 100px;
+  left: 1184px;
+  top: 300px;
+  background-color: transparent;
+}
+
+#header-subheader-text {
+  position: absolute;
+  font-size: 50px;
+  left: 1184px;
+  top: 493px;
+  background-color: transparent;
 }
 
 * {
