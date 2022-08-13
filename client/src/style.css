@@ -1,0 +1,13 @@
+#desktop-header {
+  background-image: url("./images/My-Website-Home-Header.jpg");
+  height: 952px;
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+* {
+  background-color: #1d1d1d;
+  color: white;
+}
