@@ -56,17 +56,47 @@
   border: 3px solid #2c5472;
 }
 
+#home-image-paragraph-one {
+  text-align: left;
+  position: relative;
+  left: 1110px;
+  bottom: 225px;
+  background-color: transparent;
+  font-size: 35px;
+}
+
 #home-image-two {
   background-image: url("./images/cropped-home-2.jpg");
   position: relative;
   height: 584px;
   width: 584px;
-  top: 107px;
-  left: 1087px;
+  /* top: 107px; */
+  left: 1082px;
   border: 3px solid #2c5472;
+}
+
+#home-image-paragraph-two {
+  text-align: right;
+  position: relative;
+  right: 960px;
+  bottom: 425px;
+  background-color: transparent;
+  font-size: 35px;
+}
+
+#callout-home {
+  background-color: #4e4848;
+  height: 494px;
+  width: 100%;
+}
+
+#home-final-section {
+  height: 569px;
 }
 
 * {
   background-color: #1d1d1d;
   color: white;
+  max-width: 100%;
+  overflow-x: hidden;
 }
