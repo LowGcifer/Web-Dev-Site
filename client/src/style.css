@@ -46,6 +46,26 @@
   top: 50px;
 }
 
+#home-image-one {
+  background-image: url("./images/cropped-home-1.jpg");
+  position: relative;
+  height: 400px;
+  width: 744px;
+  left: 254px;
+  top: 81px;
+  border: 3px solid #2c5472;
+}
+
+#home-image-two {
+  background-image: url("./images/cropped-home-2.jpg");
+  position: relative;
+  height: 584px;
+  width: 584px;
+  top: 107px;
+  left: 1087px;
+  border: 3px solid #2c5472;
+}
+
 * {
   background-color: #1d1d1d;
   color: white;

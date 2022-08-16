@@ -18,6 +18,13 @@ function Home() {
           <br></br>to make your brand stand out.
         </p>
       </div>
+      <div>
+        <div id="home-image-one"></div>
+        <p></p>
+      </div>
+      <div>
+        <div id="home-image-two"></div>
+      </div>
     </div>
   );
 }
