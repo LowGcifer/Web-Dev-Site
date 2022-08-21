@@ -1,5 +1,8 @@
 .default-color {
   background-color: #1d1d1d;
+}
+
+.home-body {
   overflow-x: hidden;
 }
 
