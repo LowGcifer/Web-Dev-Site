@@ -1,8 +1,8 @@
 .navbar {
-  background-color: #080558;
+  background-color: black;
   color: white;
   width: 100%;
-  height: 73px;
+  height: 40px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -12,35 +12,39 @@
 #home-nav {
   display: inline;
   position: absolute;
-  left: 537px;
+  /* left: 537px; */
+  left: 1450px;
   /* left: 27.96875%; */
-  top: 33%;
-  background-color: #080558;
+  top: 25%;
+  background-color: black;
 }
 
 #about-nav {
   display: inline;
   position: absolute;
-  left: 766px;
+  /* left: 766px; */
+  left: 1550px;
   /* left: 39.895833%; */
-  top: 33%;
-  background-color: #080558;
+  top: 25%;
+  background-color: black;
 }
 
 #services-nav {
   display: inline;
   position: absolute;
-  left: 1005px;
+  /* left: 1005px; */
+  left: 1650px;
   /* left: 52.34375%; */
-  top: 33%;
-  background-color: #080558;
+  top: 25%;
+  background-color: black;
 }
 
 #contact-nav {
   display: inline;
   position: absolute;
-  left: 1278px;
+  /* left: 1278px; */
+  left: 1750px;
   /* left: 66.5625%; */
-  top: 33%;
-  background-color: #080558;
+  top: 25%;
+  background-color: black;
 }
