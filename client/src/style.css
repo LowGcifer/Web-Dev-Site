@@ -92,6 +92,7 @@
   height: 584px;
   width: 584px;
   /* top: 107px; */
+  bottom: 107px;
   left: 1082px;
   border: 3px solid #2c5472;
 }
@@ -100,13 +101,14 @@
   text-align: right;
   position: relative;
   right: 960px;
-  bottom: 425px;
+  bottom: 532px;
   background-color: transparent;
   font-size: 35px;
 }
 
 #callout-home {
   background-color: #4e4848;
+  bottom: 300px;
   height: 494px;
   width: 100%;
 }

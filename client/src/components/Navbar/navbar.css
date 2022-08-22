@@ -1,7 +1,7 @@
 .navbar {
   background-color: black;
   color: white;
-  width: 100%;
+  width: 100vw;
   height: 40px;
   position: sticky;
   top: 0;
@@ -12,9 +12,10 @@
 #home-nav {
   display: inline;
   position: absolute;
-  /* left: 537px; */
-  left: 1450px;
-  /* left: 27.96875%; */
+
+  /* left: 1450px; */
+  left: 77.5%;
+
   top: 25%;
   background-color: black;
 }
@@ -22,9 +23,10 @@
 #about-nav {
   display: inline;
   position: absolute;
-  /* left: 766px; */
-  left: 1550px;
-  /* left: 39.895833%; */
+
+  /* left: 1550px; */
+  left: 82.5%;
+
   top: 25%;
   background-color: black;
 }
@@ -32,9 +34,9 @@
 #services-nav {
   display: inline;
   position: absolute;
-  /* left: 1005px; */
-  left: 1650px;
-  /* left: 52.34375%; */
+
+  /* left: 1650px; */
+  left: 87.5%;
   top: 25%;
   background-color: black;
 }
@@ -42,9 +44,10 @@
 #contact-nav {
   display: inline;
   position: absolute;
-  /* left: 1278px; */
-  left: 1750px;
-  /* left: 66.5625%; */
+
+  /* left: 1750px; */
+  left: 92.5%;
+
   top: 25%;
   background-color: black;
 }
