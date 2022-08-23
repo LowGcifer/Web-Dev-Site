@@ -1,6 +1,8 @@
 import Navbar from "../../components/Navbar";
 import HomeHeader from "../../components/HomeHeader";
 import "../../style.css";
+import { Link } from "react-router-dom";
+import Services from "../../pages/services";
 // import App from "../../App";
 
 function Home() {
@@ -61,6 +63,11 @@ function Home() {
             Developer,<br></br>and I'm going to bring your website to the 21st
             Century.
           </p>
+        </div>
+        <div id="final-button-section">
+          <button className="button-style" type="button">
+            Learn More
+          </button>
         </div>
       </div>
     </div>
