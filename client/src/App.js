@@ -1,10 +1,27 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Home from "./pages/home";
+import Services from "./pages/services";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
-    <Home></Home>
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/services" component={Services} />
+        </Routes>
+      </div>
+    </Router>
+
+    // <Home></Home>
+
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
