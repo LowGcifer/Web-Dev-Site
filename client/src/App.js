@@ -11,11 +11,11 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div>
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/services" component={Services} />
+          <Route exact path="/" element=<Home /> />
+          <Route exact path="/services" element=<Services /> />
         </Routes>
       </div>
     </Router>

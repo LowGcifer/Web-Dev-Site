@@ -65,9 +65,9 @@ function Home() {
           </p>
         </div>
         <div id="final-button-section">
-          <button className="button-style" type="button">
+          <a className="button-style" href="/services">
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </div>

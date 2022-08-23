@@ -140,8 +140,12 @@
 }
 
 .button-style {
+  appearance: button;
   color: black;
   background-color: #2c5472;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 300px;
   height: 96px;
   font-size: 30px;
