@@ -3,6 +3,10 @@
   color: white;
 }
 
+.services-body {
+  overflow-x: hidden;
+}
+
 #services-header-image {
   background-image: url("../../images/services-header.jpg");
   height: 377px;
@@ -16,4 +20,8 @@
   left: 464px;
   bottom: 221px;
   font-size: 60px;
+}
+
+#services-paths {
+  height: 1058px;
 }
