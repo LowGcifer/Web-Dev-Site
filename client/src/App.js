@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./pages/home";
 import Services from "./pages/services";
+import Contact from "./pages/contact";
+import About from "./pages/about";
 import {
   BrowserRouter as Router,
   Routes,
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services" element={<Services />} />
+          <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

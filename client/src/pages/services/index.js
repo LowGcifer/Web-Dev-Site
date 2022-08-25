@@ -6,9 +6,9 @@ function Services() {
     <div className="default-color">
       <Navbar></Navbar>
       <div>
-        <div className="services-header">
+        <div>
           <div id="services-header-image"></div>
-          <h1>Services</h1>
+          <h1 id="services-header-text">Services</h1>
         </div>
       </div>
     </div>

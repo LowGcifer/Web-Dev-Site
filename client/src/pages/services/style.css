@@ -2,3 +2,18 @@
   background-color: #1d1d1d;
   color: white;
 }
+
+#services-header-image {
+  background-image: url("../../images/services-header.jpg");
+  height: 377px;
+  width: 1077px;
+  position: relative;
+  left: 700px;
+}
+
+#services-header-text {
+  position: relative;
+  left: 464px;
+  bottom: 221px;
+  font-size: 60px;
+}
