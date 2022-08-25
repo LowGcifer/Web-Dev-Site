@@ -1,7 +1,16 @@
+import Navbar from "../../components/Navbar";
+import "./style.css";
+
 function Services() {
   return (
-    <div>
-      <h1>Test!</h1>
+    <div className="default-color">
+      <Navbar></Navbar>
+      <div>
+        <div className="services-header">
+          <div id="services-header-image"></div>
+          <h1>Services</h1>
+        </div>
+      </div>
     </div>
   );
 }

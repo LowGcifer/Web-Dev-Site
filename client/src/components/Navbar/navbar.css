@@ -51,3 +51,7 @@
   top: 25%;
   background-color: black;
 }
+
+.navlink {
+  text-decoration: none;
+}
