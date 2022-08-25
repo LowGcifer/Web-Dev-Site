@@ -25,3 +25,13 @@
 #services-paths {
   height: 1058px;
 }
+
+#services-cost {
+  height: 660px;
+  background-color: #4e4848;
+}
+
+#services-question-section {
+  height: 949px;
+  background-color: #1d1d1d;
+}

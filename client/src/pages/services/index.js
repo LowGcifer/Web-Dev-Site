@@ -11,6 +11,8 @@ function Services() {
           <h1 id="services-header-text">Services</h1>
         </div>
         <div id="services-paths"></div>
+        <div id="services-cost"></div>
+        <div id="services-question-section"></div>
       </div>
     </div>
   );
