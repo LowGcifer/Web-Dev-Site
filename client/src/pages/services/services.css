@@ -37,9 +37,12 @@
 
 #services-paths-top-line {
   /* height: 2px; */
-  position: flex;
-  justify-content: center;
-  width: 1151px;
+  position: relative;
+  top: 57px;
+  left: 20%;
+  /* justify-content: center;
+  align-content: center; */
+  width: 60%;
   background-color: #1d1d1d;
   border-top: 2px solid #2c5472;
 }
