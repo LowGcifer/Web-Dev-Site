@@ -65,8 +65,11 @@ function Home() {
           </p>
         </div>
         <div id="final-button-section">
-          <a className="button-style" href="/services">
+          <a id="learn-more-button" className="button-style" href="/services">
             Learn More
+          </a>
+          <a id="contact-button" className="button-style" href="/contact">
+            Contact
           </a>
         </div>
       </div>

@@ -22,16 +22,16 @@
 #header-header-text {
   position: absolute;
   font-size: 100px;
-  left: 1184px;
-  top: 300px;
+  left: 61.666667%;
+  top: 27.77777%;
   background-color: transparent;
 }
 
 #header-subheader-text {
   position: absolute;
   font-size: 50px;
-  left: 1184px;
-  top: 493px;
+  left: 61.666667%;
+  top: 45.648148%;
   background-color: transparent;
 }
 
@@ -67,12 +67,16 @@
   bottom: 50px;
 }
 
+#home-image-area {
+  height: 1231px;
+}
+
 #home-image-one {
   background-image: url("./images/cropped-home-1.jpg");
   position: relative;
   height: 400px;
   width: 744px;
-  left: 254px;
+  left: 7.5%;
   top: 81px;
   border: 3px solid #2c5472;
 }
@@ -80,7 +84,7 @@
 #home-image-paragraph-one {
   text-align: left;
   position: relative;
-  left: 1110px;
+  left: 56%;
   bottom: 225px;
   background-color: transparent;
   font-size: 35px;
@@ -93,14 +97,14 @@
   width: 584px;
   /* top: 107px; */
   bottom: 107px;
-  left: 1082px;
+  left: 56.354167%;
   border: 3px solid #2c5472;
 }
 
 #home-image-paragraph-two {
   text-align: right;
   position: relative;
-  right: 960px;
+  right: 50%;
   bottom: 532px;
   background-color: transparent;
   font-size: 35px;
@@ -137,6 +141,17 @@
 
 #final-button-section {
   height: 200px;
+}
+
+#learn-more-button {
+  position: relative;
+  left: 23.59375%;
+}
+
+#contact-button {
+  position: relative;
+  left: 60.78125%;
+  bottom: 96px;
 }
 
 .button-style {
