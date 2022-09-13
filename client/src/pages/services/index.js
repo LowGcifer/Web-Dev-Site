@@ -54,7 +54,18 @@ function Services() {
             </div>
           </div>
         </div>
-        <div id="services-cost"></div>
+        <div id="services-cost">
+          <p id="services-cost-head">How much will this cost?</p>
+          <p id="services-cost-body">
+            The answer to this question varies on a case-by-case <br></br>basis.
+            Some websites require hours upon hours of work, <br></br>and others
+            can be knocked out much quicker. In general, <br></br> I charge
+            hourly and charge $50/hr. This is only for my <br></br>web
+            development services, the cost of any web design <br></br>services
+            from 929 Studios will be determined separately.
+          </p>
+          <div id="services-cost-image"></div>
+        </div>
         <div id="services-question-section"></div>
       </div>
     </div>

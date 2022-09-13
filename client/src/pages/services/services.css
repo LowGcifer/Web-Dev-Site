@@ -92,6 +92,20 @@
   background-color: #4e4848;
 }
 
+#services-cost-head {
+  font-size: 50px;
+  position: relative;
+  left: 12.5%;
+  top: 9%;
+}
+
+#services-cost-body {
+  font-size: 40px;
+  position: relative;
+  left: 12.5%;
+  top: 9%;
+}
+
 #services-question-section {
   height: 949px;
 }
