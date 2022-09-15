@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import "./about.css";
 
 function About() {
   return (
@@ -22,6 +23,11 @@ function About() {
             coding was a very obvious path for me to <br></br>go down, and here
             I am today! Making <br></br>websites for people!
           </p>
+        </div>
+        <div id="about-button-section">
+          <a id="work-with-button" className="button-style" href="/services">
+            Learn More
+          </a>
         </div>
       </div>
     </div>
