@@ -1,0 +1,21 @@
+#about-header-section {
+  position: relative;
+  height: 189px;
+}
+
+#about-header {
+  position: relative;
+  font-size: 80px;
+}
+
+#about-row-one {
+  height: 532px;
+}
+
+#about-row-two {
+  height: 427px;
+}
+
+#about-button-section {
+  height: 321px;
+}

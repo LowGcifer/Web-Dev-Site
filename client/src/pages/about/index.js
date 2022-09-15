@@ -6,7 +6,9 @@ function About() {
     <div className="default-color">
       <Navbar></Navbar>
       <div id="about-body">
-        <h1 id="about-header">Here's Me</h1>
+        <div id="about-header-section">
+          <h1 id="about-header">Here's Me</h1>
+        </div>
         <div id="about-row-one">
           <p id="about-paragraph-one">
             Hi! I'm Logan Isley. I'm a web developer <br></br>and a passionate
