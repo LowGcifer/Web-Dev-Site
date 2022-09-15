@@ -1,11 +1,12 @@
 import Navbar from "../../components/Navbar";
+import "./contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="default-color">
       <Navbar></Navbar>
-      <div>
-        <p>About</p>
+      <div id="contact-body">
+        <p>LET'S TALK</p>
       </div>
     </div>
   );
