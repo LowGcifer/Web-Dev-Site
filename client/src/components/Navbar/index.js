@@ -1,3 +1,4 @@
+import "../../fonts.css";
 import React from "react";
 import "./navbar.css";
 import $ from "jquery";
@@ -5,24 +6,29 @@ import $ from "jquery";
 function Navbar() {
   return (
     <nav className="navbar">
+      <li id="logan-home">
+        <a className="navlink" href="/">
+          Logan Isley
+        </a>
+      </li>
       <li id="home-nav">
         <a className="navlink" href="/">
-          Home
+          HOME
         </a>
       </li>
       <li id="about-nav">
         <a className="navlink" href="/about">
-          About
+          ABOUT
         </a>
       </li>
       <li id="services-nav">
         <a className="navlink" href="/services">
-          Services
+          SERVICES
         </a>
       </li>
       <li id="contact-nav">
         <a className="navlink" href="/contact">
-          Contact
+          CONTACT
         </a>
       </li>
     </nav>

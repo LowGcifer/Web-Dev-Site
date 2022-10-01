@@ -9,44 +9,60 @@
   list-style: none;
 }
 
+#logan-home {
+  font-family: Orbitron;
+  font-size: 40px;
+  position: relative;
+  top: 10%;
+  left: 3.8%;
+}
+
 #home-nav {
+  font-family: Kanit;
+  font-size: 30px;
   display: inline;
   position: absolute;
 
   /* left: 1450px; */
-  left: 77.5%;
+  left: 68.75%;
 
   top: 25%;
   background-color: black;
 }
 
 #about-nav {
+  font-family: Kanit;
+  font-size: 30px;
   display: inline;
   position: absolute;
 
   /* left: 1550px; */
-  left: 82.5%;
+  left: 74.5%;
 
   top: 25%;
   background-color: black;
 }
 
 #services-nav {
+  font-family: Kanit;
+  font-size: 30px;
   display: inline;
   position: absolute;
 
   /* left: 1650px; */
-  left: 87.5%;
+  left: 81.4%;
   top: 25%;
   background-color: black;
 }
 
 #contact-nav {
+  font-family: Kanit;
+  font-size: 30px;
   display: inline;
   position: absolute;
 
   /* left: 1750px; */
-  left: 92.5%;
+  left: 89.5%;
 
   top: 25%;
   background-color: black;
