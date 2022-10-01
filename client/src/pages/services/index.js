@@ -1,3 +1,4 @@
+import "../../fonts.css";
 import Navbar from "../../components/Navbar";
 import "./services.css";
 

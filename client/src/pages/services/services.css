@@ -8,7 +8,7 @@
 }
 
 #services-header-image {
-  background-image: url("../../images/services-header.jpg");
+  /* background-image: url("../../images/services-header.jpg"); */
   height: 377px;
   width: 1077px;
   position: relative;
@@ -17,7 +17,8 @@
 
 #services-header-text {
   position: relative;
-  left: 464px;
+  font-family: Orbitron;
+  left: 42%;
   bottom: 221px;
   font-size: 60px;
 }
