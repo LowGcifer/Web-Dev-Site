@@ -52,6 +52,7 @@
 }
 
 #home-lead-head {
+  font-family: Orbitron;
   position: relative;
   text-align: center;
   /* background-color: #2c5472; */
@@ -60,6 +61,7 @@
 }
 
 #home-lead-subhead {
+  font-family: Kanit;
   position: relative;
   text-align: center;
   font-size: 30px;
@@ -84,6 +86,7 @@
 }
 
 #home-image-paragraph-one {
+  font-family: Kanit;
   text-align: left;
   position: relative;
   left: 56%;
@@ -104,6 +107,7 @@
 }
 
 #home-image-paragraph-two {
+  font-family: Kanit;
   text-align: right;
   position: relative;
   right: 50%;
@@ -124,6 +128,7 @@
 }
 
 #callout-text {
+  font-family: Kanit;
   background-color: #4e4848;
   text-align: center;
   font-size: 40px;
@@ -137,6 +142,7 @@
 }
 
 #home-final-text {
+  font-family: Orbitron;
   font-size: 40px;
   text-align: center;
 }
@@ -157,8 +163,9 @@
 }
 
 .button-style {
+  font-family: Orbitron;
   appearance: button;
-  color: black;
+  color: white;
   background-color: #2c5472;
   display: flex;
   align-items: center;
