@@ -1,8 +1,9 @@
+import "../../fonts.css";
 import Navbar from "../../components/Navbar";
 import HomeHeader from "../../components/HomeHeader";
 import "../../style.css";
-import { Link } from "react-router-dom";
-import Services from "../../pages/services";
+// import { Link } from "react-router-dom";
+// import Services from "../../pages/services";
 // import App from "../../App";
 
 function Home() {
