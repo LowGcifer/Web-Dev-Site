@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 import Home from "./pages/home";
 import Services from "./pages/services";
@@ -8,7 +8,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Redirect,
+  // Redirect,
 } from "react-router-dom";
 
 function App() {

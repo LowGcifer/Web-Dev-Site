@@ -1,5 +1,7 @@
 .navbar {
   background-color: black;
+  display: flex;
+  align-items: center;
   color: white;
   width: 100vw;
   height: 73px;
@@ -14,7 +16,7 @@
   font-family: Orbitron;
   font-size: 40px;
   position: relative;
-  top: 10%;
+  /* top: 10%; */
   left: 3.8%;
 }
 
@@ -27,7 +29,7 @@
   /* left: 1450px; */
   left: 68.75%;
 
-  top: 25%;
+  /* top: 25%; */
   background-color: black;
 }
 
@@ -40,7 +42,7 @@
   /* left: 1550px; */
   left: 74.5%;
 
-  top: 25%;
+  /* top: 25%; */
   background-color: black;
 }
 
@@ -52,7 +54,7 @@
 
   /* left: 1650px; */
   left: 81.4%;
-  top: 25%;
+  /* top: 25%; */
   background-color: black;
 }
 
@@ -65,7 +67,7 @@
   /* left: 1750px; */
   left: 89.5%;
 
-  top: 25%;
+  /* top: 25%; */
   background-color: black;
 }
 

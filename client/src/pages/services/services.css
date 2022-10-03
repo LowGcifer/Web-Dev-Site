@@ -47,7 +47,7 @@
   align-content: center; */
   width: 60%;
   background-color: #1d1d1d;
-  border-top: 2px solid #2c5472;
+  border-top: 2px solid #3f58ac;
 }
 
 #services-paths-content {
@@ -80,7 +80,7 @@
   width: 50%;
   position: relative;
   top: 55px;
-  border-right: 2px solid #2c5472;
+  border-right: 2px solid #3f58ac;
   /* border: 5px blue solid; */
 }
 
@@ -109,4 +109,10 @@
 
 #services-question-section {
   height: 949px;
+}
+
+#answer-box {
+  width: 66%;
+  height: 39.444%;
+  background-color: #4e4848;
 }

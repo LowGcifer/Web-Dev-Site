@@ -1,5 +1,6 @@
 import "../../fonts.css";
 import Navbar from "../../components/Navbar";
+import QuestionBox from "../../components/QuestionBox";
 import "./services.css";
 
 function Services() {
@@ -68,35 +69,36 @@ function Services() {
           <div id="services-cost-image"></div>
         </div>
         <div id="services-question-section">
-          <article className="services-questions-container">
-            <section id="question-1">
+          <QuestionBox></QuestionBox>
+          {/* <article className="services-questions-container">
+            <button onClick="setQuestionOne()" id="question-1">
               <h2>
                 <a href="#question-1">
                   Do you design websites <br></br>directly?
                 </a>
               </h2>
               <p>Lorem ipsum</p>
-            </section>
+            </button>
 
-            <section id="question-2">
+            <button onClick="setQuestionTwo()" id="question-2">
               <h2>
                 <a href="question-2">
                   I think I need more <br></br>than a website
                 </a>
               </h2>
               <p>Lorem ipsum</p>
-            </section>
+            </button>
 
-            <section id="question-3">
+            <button onClick="setQuestionThree()" id="question-3">
               <h2>
                 <a href="question-3">
                   What does long-term <br></br>support look like?
                 </a>
               </h2>
               <p>Lorem ipsum</p>
-            </section>
+            </button>
 
-            <section id="question-4">
+            <button onClick="setQuestionFour()" id="question-4">
               <h2>
                 <a href="question-4">
                   I'm a designer in <br></br>need of a developer <br></br>for a
@@ -104,15 +106,15 @@ function Services() {
                 </a>
               </h2>
               <p>Lorem ipsum</p>
-            </section>
+            </button>
 
-            <section id="question-5">
+            <button onClick="setQuestionFive()" id="question-5">
               <h2>
                 <a href="question-5">When can we start?</a>
               </h2>
               <p>Lorem ipsum</p>
-            </section>
-          </article>
+            </button>
+          </article> */}
         </div>
       </div>
     </div>
