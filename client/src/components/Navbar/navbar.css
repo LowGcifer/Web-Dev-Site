@@ -73,9 +73,6 @@
 
 .navlink {
   text-decoration: none;
-  display: inline-block;
-  position: relative;
-  padding: 0.2em 0;
 }
 
 .navlink:after {
