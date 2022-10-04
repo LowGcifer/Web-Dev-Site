@@ -7,7 +7,10 @@ function QuestionBox() {
   return (
     <div>
       <article className="services-questions-container">
-        <button onClick={() => setBoxText("1 Lorem Ipsum")} id="question-1">
+        <button
+          onClick={() => setBoxText("1 Lorem Ipsum")}
+          className="unselected-question"
+        >
           <h2>
             <p>
               Do you design websites <br></br>directly?
@@ -15,7 +18,10 @@ function QuestionBox() {
           </h2>
           {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick={() => setBoxText("2 Lorem Ipsum")} id="question-2">
+        <button
+          onClick={() => setBoxText("2 Lorem Ipsum")}
+          className="unselected-question"
+        >
           <h2>
             <p>
               I think I need more <br></br>than a website
@@ -23,7 +29,10 @@ function QuestionBox() {
           </h2>
           {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick={() => setBoxText("3 Lorem Ipsum")} id="question-3">
+        <button
+          onClick={() => setBoxText("3 Lorem Ipsum")}
+          className="unselected-question"
+        >
           <h2>
             <p>
               What does long-term <br></br>support look like?
@@ -31,7 +40,10 @@ function QuestionBox() {
           </h2>
           {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick={() => setBoxText("4 Lorem Ipsum")} id="question-4">
+        <button
+          onClick={() => setBoxText("4 Lorem Ipsum")}
+          className="unselected-question"
+        >
           <h2>
             <p>
               I'm a designer in <br></br>need of a developer <br></br>for a
@@ -40,7 +52,10 @@ function QuestionBox() {
           </h2>
           {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick={() => setBoxText("5 Lorem Ipsum")} id="question-5">
+        <button
+          onClick={() => setBoxText("5 Lorem Ipsum")}
+          className="unselected-question"
+        >
           <h2>
             <p>When can we start?</p>
           </h2>
