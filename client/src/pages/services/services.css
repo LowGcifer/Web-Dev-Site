@@ -140,6 +140,8 @@
 
 .unselected-question {
   background-color: #1d1d1d;
+  color: white;
+  transition: 0.3s;
 }
 
 .unselected-question:hover {
