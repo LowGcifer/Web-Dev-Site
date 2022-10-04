@@ -73,8 +73,19 @@
 
 .navlink {
   text-decoration: none;
+  display: inline-block;
+  position: relative;
+  padding: 0.2em 0;
 }
 
-.navlink:hover {
+.navlink:after {
+  content: "";
+  display: flex;
   border-bottom: 2px solid #3f58ac;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navlink:hover:after {
+  transform: scaleX(1);
 }
