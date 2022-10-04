@@ -140,10 +140,39 @@
 
 .unselected-question {
   background-color: #1d1d1d;
+  border: 2px solid black;
   color: white;
   transition: 0.3s;
 }
 
 .unselected-question:hover {
   background-color: #4e4848;
+  border: 2px solid white;
+}
+
+#button-section {
+  height: 300px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.long-button-style {
+  font-family: Orbitron;
+  appearance: button;
+  color: white;
+  background-color: #3f58ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  width: 438px;
+  height: 96px;
+  font-size: 30px;
+}
+
+.long-button-style:hover {
+  /* outline: 1px solid white;
+  outline-offset: -10px; */
+  box-shadow: inset 0px 0px 0px 2px;
 }

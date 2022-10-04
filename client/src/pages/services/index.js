@@ -74,6 +74,11 @@ function Services() {
             <QuestionBox></QuestionBox>
           </div>
         </div>
+        <div id="button-section">
+          <a id="set-up-button" className="long-button-style" href="/contact">
+            Set up a call!
+          </a>
+        </div>
       </div>
     </div>
   );
