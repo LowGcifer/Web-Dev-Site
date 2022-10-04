@@ -1,51 +1,55 @@
 import "../../fonts.css";
 import "../../pages/services/services.css";
+import { useState } from "react";
 
 function QuestionBox() {
+  const [boxText, setBoxText] = useState("1 Lorem Ipsum");
   return (
     <div>
       <article className="services-questions-container">
-        <button onClick="setQuestionOne()" id="question-1">
+        <button onClick={() => setBoxText("1 Lorem Ipsum")} id="question-1">
           <h2>
-            <a href="#question-1">
+            <p>
               Do you design websites <br></br>directly?
-            </a>
+            </p>
           </h2>
-          <p>Lorem ipsum</p>
+          {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick="setQuestionTwo()" id="question-2">
+        <button onClick={() => setBoxText("2 Lorem Ipsum")} id="question-2">
           <h2>
-            <a href="question-2">
+            <p>
               I think I need more <br></br>than a website
-            </a>
+            </p>
           </h2>
-          <p>Lorem ipsum</p>
+          {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick="setQuestionThree()" id="question-3">
+        <button onClick={() => setBoxText("3 Lorem Ipsum")} id="question-3">
           <h2>
-            <a href="question-3">
+            <p>
               What does long-term <br></br>support look like?
-            </a>
+            </p>
           </h2>
-          <p>Lorem ipsum</p>
+          {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick="setQuestionFour()" id="question-4">
+        <button onClick={() => setBoxText("4 Lorem Ipsum")} id="question-4">
           <h2>
-            <a href="question-4">
+            <p>
               I'm a designer in <br></br>need of a developer <br></br>for a
               project, can I hire you?
-            </a>
+            </p>
           </h2>
-          <p>Lorem ipsum</p>
+          {/* <p>Lorem ipsum</p> */}
         </button>
-        <button onClick="setQuestionFive()" id="question-5">
+        <button onClick={() => setBoxText("5 Lorem Ipsum")} id="question-5">
           <h2>
-            <a href="question-5">When can we start?</a>
+            <p>When can we start?</p>
           </h2>
-          <p>Lorem ipsum</p>
+          {/* <p>Lorem ipsum</p> */}
         </button>
       </article>
-      <div id="answer-box"></div>
+      <div id="answer-box">
+        <p>{boxText}</p>
+      </div>
     </div>
   );
 }
