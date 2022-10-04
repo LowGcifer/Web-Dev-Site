@@ -170,9 +170,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 1;
+  transition: 0.3s;
   width: 300px;
   height: 96px;
   font-size: 30px;
+}
+
+.button-style:hover {
+  box-shadow: inset 0px 0px 0px 2px;
 }
 
 * {
