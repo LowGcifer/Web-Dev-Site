@@ -141,11 +141,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1270px;
+  width: 1266px;
   height: 426px;
   /* width: 66%;
   height: 39.444%; */
   background-color: #4e4848;
+  border: 2px solid black;
+  border-top: transparent;
 }
 
 .unselected-question {
