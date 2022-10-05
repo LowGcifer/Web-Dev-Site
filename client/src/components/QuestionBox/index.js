@@ -16,7 +16,7 @@ function QuestionBox() {
         <div id="question-boxes-area">
           <button
             onClick={() => {
-              setBoxText("1 Lorem Ipsum");
+              setBoxText("Opus Eponymous");
               handleClick(1);
             }}
             className={
@@ -32,7 +32,7 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("2 Lorem Ipsum");
+              setBoxText("Infestissumam");
               handleClick(2);
             }}
             className={
@@ -48,7 +48,7 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("3 Lorem Ipsum");
+              setBoxText("Meliora");
               handleClick(3);
             }}
             className={
@@ -64,7 +64,7 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("4 Lorem Ipsum");
+              setBoxText("Prequelle");
               handleClick(4);
             }}
             className={
@@ -81,7 +81,7 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("5 Lorem Ipsum");
+              setBoxText("Impera");
               handleClick(5);
             }}
             className={
