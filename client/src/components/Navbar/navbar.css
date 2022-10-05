@@ -86,3 +86,8 @@
 .navlink:hover:after {
   transform: scaleX(1);
 }
+
+.highlighted {
+  text-decoration: none;
+  border-bottom: 2px solid #3f58ac;
+}

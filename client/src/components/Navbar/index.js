@@ -1,8 +1,12 @@
 import "../../fonts.css";
 import React from "react";
 import "./navbar.css";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 function Navbar() {
+  const classNameState = ({ isActive }) =>
+    isActive ? "highlighted" : "navlink";
   return (
     <nav className="navbar">
       <li id="logan-home">
@@ -11,24 +15,24 @@ function Navbar() {
         </a>
       </li>
       <li id="home-nav">
-        <a className="navlink" href="/">
+        <NavLink to="/" className={classNameState}>
           HOME
-        </a>
+        </NavLink>
       </li>
       <li id="about-nav">
-        <a className="navlink" href="/about">
+        <NavLink className={classNameState} to="/about">
           ABOUT
-        </a>
+        </NavLink>
       </li>
       <li id="services-nav">
-        <a className="navlink" href="/services">
+        <NavLink className={classNameState} to="/services">
           SERVICES
-        </a>
+        </NavLink>
       </li>
       <li id="contact-nav">
-        <a className="navlink" href="/contact">
+        <NavLink className={classNameState} to="/contact">
           CONTACT
-        </a>
+        </NavLink>
       </li>
     </nav>
   );

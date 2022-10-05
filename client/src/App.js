@@ -5,6 +5,7 @@ import Services from "./pages/services";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 import {
+  NavLink,
   BrowserRouter as Router,
   Routes,
   Route,
