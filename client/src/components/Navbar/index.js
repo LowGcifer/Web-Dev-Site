@@ -10,9 +10,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <li id="logan-home">
-        <a className="navlink" href="/">
+        <NavLink className="navlink" to="/">
           Logan Isley
-        </a>
+        </NavLink>
       </li>
       <li id="home-nav">
         <NavLink to="/" className={classNameState}>

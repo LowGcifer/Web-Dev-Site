@@ -106,7 +106,7 @@
 }
 
 #services-question-section {
-  height: 949px;
+  height: 800px;
   /* overflow-y: hidden; */
   /* display: flex;
   justify-content: center;
@@ -127,6 +127,12 @@
   justify-content: center;
   align-items: center;
   /* overflow-y: hidden; */
+}
+
+#question-boxes-area {
+  height: 112px;
+  display: flex;
+  justify-content: center;
 }
 
 #answer-box {
