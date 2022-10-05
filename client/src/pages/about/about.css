@@ -1,20 +1,29 @@
 #about-header-section {
   position: relative;
   height: 189px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about-body {
+  overflow-x: hidden;
 }
 
 #about-header {
+  font-family: Orbitron;
   position: relative;
   font-size: 80px;
-  left: 19.5%;
 }
 
 #about-row-one {
-  height: 532px;
+  height: 628px;
+  font-family: Kanit;
 }
 
 #about-row-two {
-  height: 427px;
+  height: 522px;
+  font-family: Kanit;
 }
 
 #about-button-section {

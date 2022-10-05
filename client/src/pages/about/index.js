@@ -1,3 +1,4 @@
+import "../../fonts.css";
 import Navbar from "../../components/Navbar";
 import "./about.css";
 
@@ -7,7 +8,7 @@ function About() {
       <Navbar></Navbar>
       <div id="about-body">
         <div id="about-header-section">
-          <h1 id="about-header">Here's Me</h1>
+          <h1 id="about-header">About Me</h1>
         </div>
         <div id="about-row-one">
           <p id="about-paragraph-one">
