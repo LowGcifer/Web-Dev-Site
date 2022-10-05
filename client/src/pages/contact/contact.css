@@ -6,4 +6,21 @@
 #contact-body {
   height: 93.4vh;
   background-color: #1d1d1d;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#contact-head-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-header {
+  font-family: Orbitron;
+  font-size: 80px;
+}
+
+#calendly-container {
+  overflow-y: hidden;
 }

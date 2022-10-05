@@ -3,7 +3,6 @@ import "../../pages/services/services.css";
 import { useState } from "react";
 
 function QuestionBox() {
-  const boxes = ["box1", "box2", "box3", "box4", "box5"];
   const [isActive, setIsActive] = useState(1);
   const [boxText, setBoxText] = useState("1 Lorem Ipsum");
   const handleClick = (index) => {
