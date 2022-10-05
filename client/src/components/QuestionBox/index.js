@@ -3,11 +3,13 @@ import "../../pages/services/services.css";
 import { useState } from "react";
 
 function QuestionBox() {
-  const [isActive, setIsActive] = useState(false);
+  const boxes = ["box1", "box2", "box3", "box4", "box5"];
+  const [isActive, setIsActive] = useState(1);
   const [boxText, setBoxText] = useState("1 Lorem Ipsum");
-  const handleClick = () => {
-    setIsActive(true);
+  const handleClick = (index) => {
+    setIsActive(index);
   };
+
   return (
     <div>
       <article className="services-questions-container">
@@ -15,9 +17,11 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText("1 Lorem Ipsum");
-              handleClick();
+              handleClick(1);
             }}
-            className={isActive ? "selected-question" : "unselected-question"}
+            className={
+              isActive === 1 ? "selected-question" : "unselected-question"
+            }
           >
             <h2>
               <p>
@@ -29,9 +33,11 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText("2 Lorem Ipsum");
-              handleClick();
+              handleClick(2);
             }}
-            className={isActive ? "selected-question" : "unselected-question"}
+            className={
+              isActive === 2 ? "selected-question" : "unselected-question"
+            }
           >
             <h2>
               <p>
@@ -43,9 +49,11 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText("3 Lorem Ipsum");
-              handleClick();
+              handleClick(3);
             }}
-            className={isActive ? "selected-question" : "unselected-question"}
+            className={
+              isActive === 3 ? "selected-question" : "unselected-question"
+            }
           >
             <h2>
               <p>
@@ -57,9 +65,11 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText("4 Lorem Ipsum");
-              handleClick();
+              handleClick(4);
             }}
-            className={isActive ? "selected-question" : "unselected-question"}
+            className={
+              isActive === 4 ? "selected-question" : "unselected-question"
+            }
           >
             <h2>
               <p>
@@ -72,9 +82,11 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText("5 Lorem Ipsum");
-              handleClick();
+              handleClick(5);
             }}
-            className={isActive ? "selected-question" : "unselected-question"}
+            className={
+              isActive === 5 ? "selected-question" : "unselected-question"
+            }
           >
             <h2>
               <p>When can we start?</p>
