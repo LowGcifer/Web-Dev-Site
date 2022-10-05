@@ -131,6 +131,9 @@
 
 #answer-box {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1270px;
   height: 426px;
   /* width: 66%;
@@ -140,6 +143,9 @@
 
 .unselected-question {
   background-color: #1d1d1d;
+  font-size: 10px;
+  width: 254px;
+  height: 112px;
   border: 2px solid black;
   color: white;
   transition: 0.3s;
@@ -148,6 +154,16 @@
 .unselected-question:hover {
   background-color: #4e4848;
   border: 2px solid white;
+}
+
+.selected-question {
+  background-color: #4e4848;
+  border: 2px solid black;
+  border-bottom: 2px solid #4e4848;
+  font-size: 10px;
+  width: 254px;
+  height: 112px;
+  transition: 0.3s;
 }
 
 #button-section {

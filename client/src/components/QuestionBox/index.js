@@ -3,13 +3,20 @@ import "../../pages/services/services.css";
 import { useState } from "react";
 
 function QuestionBox() {
+  const [isActive, setIsActive] = useState(false);
   const [boxText, setBoxText] = useState("1 Lorem Ipsum");
+  const handleClick = () => {
+    setIsActive(true);
+  };
   return (
     <div>
       <article className="services-questions-container">
         <button
-          onClick={() => setBoxText("1 Lorem Ipsum")}
-          className="unselected-question"
+          onClick={() => {
+            setBoxText("1 Lorem Ipsum");
+            handleClick();
+          }}
+          className={isActive ? "selected-question" : "unselected-question"}
         >
           <h2>
             <p>
@@ -19,8 +26,11 @@ function QuestionBox() {
           {/* <p>Lorem ipsum</p> */}
         </button>
         <button
-          onClick={() => setBoxText("2 Lorem Ipsum")}
-          className="unselected-question"
+          onClick={() => {
+            setBoxText("2 Lorem Ipsum");
+            handleClick();
+          }}
+          className={isActive ? "selected-question" : "unselected-question"}
         >
           <h2>
             <p>
@@ -30,8 +40,11 @@ function QuestionBox() {
           {/* <p>Lorem ipsum</p> */}
         </button>
         <button
-          onClick={() => setBoxText("3 Lorem Ipsum")}
-          className="unselected-question"
+          onClick={() => {
+            setBoxText("3 Lorem Ipsum");
+            handleClick();
+          }}
+          className={isActive ? "selected-question" : "unselected-question"}
         >
           <h2>
             <p>
@@ -41,8 +54,11 @@ function QuestionBox() {
           {/* <p>Lorem ipsum</p> */}
         </button>
         <button
-          onClick={() => setBoxText("4 Lorem Ipsum")}
-          className="unselected-question"
+          onClick={() => {
+            setBoxText("4 Lorem Ipsum");
+            handleClick();
+          }}
+          className={isActive ? "selected-question" : "unselected-question"}
         >
           <h2>
             <p>
@@ -53,8 +69,11 @@ function QuestionBox() {
           {/* <p>Lorem ipsum</p> */}
         </button>
         <button
-          onClick={() => setBoxText("5 Lorem Ipsum")}
-          className="unselected-question"
+          onClick={() => {
+            setBoxText("5 Lorem Ipsum");
+            handleClick();
+          }}
+          className={isActive ? "selected-question" : "unselected-question"}
         >
           <h2>
             <p>When can we start?</p>
