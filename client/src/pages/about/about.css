@@ -39,8 +39,111 @@
 }
 
 #about-button-section {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   height: 321px;
+}
+
+#work-with-button {
+  position: relative;
+  left: 38.6%;
+}
+
+.long-button-style {
+  font-family: Orbitron;
+  appearance: button;
+  color: white;
+  background-color: #3f58ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+  width: 438px;
+  height: 96px;
+  font-size: 30px;
+}
+
+.long-button-style:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+.long-button-style:hover:before {
+  animation: animate 0.2s linear forwards;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: white;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.long-button-style:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+}
+
+.long-button-style:hover:after {
+  animation: animate2 0.2s linear forwards;
+}
+
+@keyframes animate2 {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+  }
+  50% {
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: white;
+    border-left-color: white;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: white;
+    border-left-color: white;
+  }
 }

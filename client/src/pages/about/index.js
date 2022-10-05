@@ -28,7 +28,11 @@ function About() {
           </p>
         </div>
         <div id="about-button-section">
-          <a id="work-with-button" className="button-style" href="/services">
+          <a
+            id="work-with-button"
+            className="long-button-style"
+            href="/services"
+          >
             Learn More
           </a>
         </div>
