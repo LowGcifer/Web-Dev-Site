@@ -10,9 +10,8 @@ function Contact() {
         <div id="contact-head-container">
           <p id="contact-header">Contact Me</p>
         </div>
-        <div id="calendly-container">
-          <Calendly></Calendly>
-        </div>
+
+        <Calendly></Calendly>
       </div>
     </div>
   );

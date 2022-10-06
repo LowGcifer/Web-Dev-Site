@@ -4,8 +4,11 @@ import { InlineWidget } from "react-calendly";
 
 function Calendly() {
   return (
-    <div>
-      <InlineWidget url="https://calendly.com/loganisley"></InlineWidget>
+    <div id="calendly-container">
+      <InlineWidget
+        style="position: relative;min-width: 750px;height:750px"
+        url="https://calendly.com/loganisley"
+      ></InlineWidget>
     </div>
   );
 }

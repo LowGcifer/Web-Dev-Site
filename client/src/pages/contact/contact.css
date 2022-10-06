@@ -4,8 +4,9 @@
 }
 
 #contact-body {
-  height: 93.4vh;
+  /* height: 93.4vh; */
   background-color: #1d1d1d;
+  overflow-y: hidden;
   /* display: flex;
   justify-content: center; */
 }
@@ -22,5 +23,16 @@
 }
 
 #calendly-container {
-  overflow-y: hidden;
+  /* width: 750px; */
+  height: 1000px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border: solid 2px red;
+  /* overflow-y: hidden; */
+}
+
+#calendly {
+  position: relative;
+  top: 200px;
 }

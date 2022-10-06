@@ -7,6 +7,8 @@
 }
 
 #desktop-header {
+  display: flex;
+  justify-content: center;
   background-image: url("./images/new-home-pic.jpg");
   width: 100%;
   height: 952px;
@@ -19,11 +21,22 @@
   background-size: cover;
 }
 
+/* @media only screen and (max-width: 1024px) {
+  #desktop-header {
+    background-image: url("./images/new-home-pic.jpg");
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+} */
+
 #header-header-text {
   position: absolute;
   font-family: Orbitron;
   font-size: 100px;
-  left: 33%;
+  /* left: 33%; */
   /* left: 61.666667%; */
   top: 25%;
   background-color: transparent;
@@ -31,10 +44,31 @@
 
 #header-subheader-text {
   position: absolute;
+  font-family: Kanit;
   font-size: 50px;
-  left: 34.5%;
+  /* left: 34.5%; */
   top: 45.648148%;
   background-color: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+  #desktop-header {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+  }
+  #header-header-text {
+    /* position: relative; */
+    font-size: 40px;
+    background-color: transparent;
+  }
+
+  #header-subheader-text {
+    /* position: relative; */
+    font-size: 20px;
+    background-color: transparent;
+    top: 130px;
+  }
 }
 
 .home-lead {
