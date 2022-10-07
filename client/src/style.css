@@ -105,6 +105,24 @@
   bottom: 50px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .home-lead {
+    height: 184px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #home-lead-head {
+    font-size: 20px;
+  }
+
+  #home-lead-subhead {
+    font-size: 12.5px;
+    position: relative;
+    top: 100px;
+  }
+}
+
 #home-image-area {
   height: 1400px;
 }
