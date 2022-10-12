@@ -171,6 +171,13 @@
   font-size: 35px;
 }
 
+@media only screen and (max-width: 1024px) {
+  #home-image-area {
+    /* height: 727px; */
+    height: 99.3%;
+  }
+}
+
 #callout-home {
   background-color: #4e4848;
   bottom: 300px;
@@ -188,6 +195,16 @@
   text-align: center;
   font-size: 40px;
   display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  #callout-home {
+    height: 224px;
+  }
+
+  #callout-text {
+    font-size: 12.5px;
+  }
 }
 
 #home-final-section {
@@ -215,6 +232,16 @@
   position: relative;
   left: 60.78125%;
   bottom: 96px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #home-final-section {
+    height: 337px;
+  }
+
+  #home-final-text {
+    font-size: 15px;
+  }
 }
 
 .button-style {
@@ -325,4 +352,11 @@
   color: white;
   max-width: 100%;
   /* overflow-x: hidden; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .button-style {
+    width: 142px;
+    height: 45px;
+  }
 }
