@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function QuestionBox() {
   const [isActive, setIsActive] = useState(1);
-  const [boxText, setBoxText] = useState("1 Lorem Ipsum");
+  const [boxText, setBoxText] = useState("Opus Eponymous");
   const handleClick = (index) => {
     setIsActive(index);
   };
