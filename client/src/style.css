@@ -113,7 +113,8 @@
   }
 
   #home-lead-head {
-    font-size: 17.5px;
+    /* font-size: 17.5px; */
+    font-size: 4vw;
     position: relative;
     top: 0px;
   }
