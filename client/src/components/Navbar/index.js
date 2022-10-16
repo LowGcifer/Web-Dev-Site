@@ -6,11 +6,11 @@ import { useState } from "react";
 
 function Navbar() {
   const classNameState = ({ isActive }) =>
-    isActive ? "highlighted" : "navlink";
+    isActive ? "highlighted" : "navlink-custom";
   return (
-    <nav className="navbar">
+    <nav className="navbar-custom">
       <li id="logan-home">
-        <NavLink className="navlink" to="/">
+        <NavLink className="navlink-custom" to="/">
           Logan Isley
         </NavLink>
       </li>

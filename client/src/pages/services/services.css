@@ -28,6 +28,10 @@
   /* bottom: 100px; */
 }
 
+#services-paths-mobile {
+  display: none;
+}
+
 #services-paths-head {
   height: 100px;
   display: flex;
@@ -83,9 +87,15 @@
   /* border: 5px blue solid; */
 }
 
-/* #services-left-one {
-  left: 100px;
-} */
+@media only screen and (max-width: 1024px) {
+  #services-paths {
+    display: none;
+  }
+
+  #services-paths-mobile {
+    display: flex;
+  }
+}
 
 #services-cost {
   height: 660px;

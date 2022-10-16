@@ -1,4 +1,4 @@
-.navbar {
+.navbar-custom {
   background-color: black;
   display: flex;
   align-items: center;
@@ -94,11 +94,12 @@
   background-color: black;
 }
 
-.navlink {
+.navlink-custom {
   text-decoration: none;
+  color: white;
 }
 
-.navlink:after {
+.navlink-custom:after {
   content: "";
   display: flex;
   border-bottom: 2px solid #3f58ac;
@@ -106,7 +107,7 @@
   transition: transform 0.15s ease-in-out;
 }
 
-.navlink:hover:after {
+.navlink-custom:hover:after {
   transform: scaleX(1);
 }
 
@@ -120,7 +121,7 @@
     display: none;
   }
 
-  .navbar {
+  .navbar-custom {
     height: 60px;
   }
 
@@ -133,7 +134,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .navbar {
+  .navbar-custom {
     height: 60px;
   }
 

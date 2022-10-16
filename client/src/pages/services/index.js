@@ -1,7 +1,9 @@
 import "../../fonts.css";
 import Navbar from "../../components/Navbar";
 import QuestionBox from "../../components/QuestionBox";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "./services.css";
+// import Accordion from "react-bootstrap/Accordion";
 
 function Services() {
   return (
@@ -34,7 +36,7 @@ function Services() {
               </p>
             </div>
             <div id="services-paths-right">
-              <p id="services-right-head">You're starting from scratch</p>
+              <p id="services-right-head">You're starting from scratch:</p>
               <p id="services-right-one">
                 This means you have nothing. <br></br> You don't have a design
                 for <br></br> your new website. This <br></br> means you'll not
@@ -55,6 +57,8 @@ function Services() {
             </div>
           </div>
         </div>
+
+        <div id="services-paths-mobile"></div>
         <div id="services-cost">
           <p id="services-cost-head">How much will this cost?</p>
           <p id="services-cost-body">
