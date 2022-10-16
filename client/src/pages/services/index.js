@@ -4,6 +4,7 @@ import QuestionBox from "../../components/QuestionBox";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./services.css";
 // import Accordion from "react-bootstrap/Accordion";
+import PathsAccordion from "../../components/PathsAccordion";
 
 function Services() {
   return (
@@ -58,7 +59,9 @@ function Services() {
           </div>
         </div>
 
-        <div id="services-paths-mobile"></div>
+        <div id="services-paths-mobile">
+          <PathsAccordion></PathsAccordion>
+        </div>
         <div id="services-cost">
           <p id="services-cost-head">How much will this cost?</p>
           <p id="services-cost-body">
