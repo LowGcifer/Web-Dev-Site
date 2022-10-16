@@ -115,7 +115,7 @@
   border-bottom: 2px solid #3f58ac;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
   #main-buttons {
     display: none;
   }
@@ -125,7 +125,24 @@
   }
 
   #logan-home {
-    font-size: 8vw;
+    font-size: 40px;
+    /* margin-left: auto;
+    margin-right: auto;
+    left: 0px; */
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    height: 60px;
+  }
+
+  #main-buttons {
+    display: none;
+  }
+
+  #logan-home {
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     left: 0px;

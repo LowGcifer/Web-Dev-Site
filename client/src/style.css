@@ -202,9 +202,14 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  #home-image-area {
-    /* height: 727px; */
-    height: 99.3%;
+  #home-image-paragraph-one {
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  #home-image-paragraph-two {
+    font-size: 6vw;
+    text-align: center;
   }
 }
 
