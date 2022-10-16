@@ -14,26 +14,31 @@ function Navbar() {
           Logan Isley
         </NavLink>
       </li>
-      <li id="home-nav">
-        <NavLink to="/" className={classNameState}>
-          HOME
-        </NavLink>
-      </li>
-      <li id="about-nav">
-        <NavLink className={classNameState} to="/about">
-          ABOUT
-        </NavLink>
-      </li>
-      <li id="services-nav">
-        <NavLink className={classNameState} to="/services">
-          SERVICES
-        </NavLink>
-      </li>
-      <li id="contact-nav">
-        <NavLink className={classNameState} to="/contact">
-          CONTACT
-        </NavLink>
-      </li>
+
+      <li id="hamburger"></li>
+
+      <div id="main-buttons">
+        <li id="home-nav">
+          <NavLink to="/" className={classNameState}>
+            HOME
+          </NavLink>
+        </li>
+        <li id="about-nav">
+          <NavLink className={classNameState} to="/about">
+            ABOUT
+          </NavLink>
+        </li>
+        <li id="services-nav">
+          <NavLink className={classNameState} to="/services">
+            SERVICES
+          </NavLink>
+        </li>
+        <li id="contact-nav">
+          <NavLink className={classNameState} to="/contact">
+            CONTACT
+          </NavLink>
+        </li>
+      </div>
     </nav>
   );
 }

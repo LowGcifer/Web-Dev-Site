@@ -12,6 +12,29 @@
   overflow-x: hidden;
 }
 
+/* #main-buttons-container {
+  width: 85vw;
+  display: flex;
+  justify-content: right;
+  height: 73px;
+} */
+
+#hamburger {
+  display: none;
+}
+
+#main-buttons {
+  display: flex;
+  height: 73px;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+  /* left: 54vw; */
+  margin-left: auto;
+}
+
 #logan-home {
   font-family: Orbitron;
   font-size: 40px;
@@ -24,10 +47,10 @@
   font-family: Kanit;
   font-size: 30px;
   display: inline;
-  position: absolute;
+  /* position: absolute; */
 
   /* left: 1450px; */
-  left: 68.75%;
+  /* left: 68.75%; */
 
   /* top: 25%; */
   background-color: black;
@@ -37,10 +60,10 @@
   font-family: Kanit;
   font-size: 30px;
   display: inline;
-  position: absolute;
+  /* position: absolute; */
 
   /* left: 1550px; */
-  left: 74.5%;
+  /* left: 74.5%; */
 
   /* top: 25%; */
   background-color: black;
@@ -50,10 +73,10 @@
   font-family: Kanit;
   font-size: 30px;
   display: inline;
-  position: absolute;
+  /* position: absolute; */
 
   /* left: 1650px; */
-  left: 81.4%;
+  /* left: 81.4%; */
   /* top: 25%; */
   background-color: black;
 }
@@ -62,10 +85,10 @@
   font-family: Kanit;
   font-size: 30px;
   display: inline;
-  position: absolute;
+  /* position: absolute; */
 
   /* left: 1750px; */
-  left: 89.5%;
+  /* left: 89.5%; */
 
   /* top: 25%; */
   background-color: black;
@@ -90,4 +113,21 @@
 .highlighted {
   text-decoration: none;
   border-bottom: 2px solid #3f58ac;
+}
+
+@media screen and (max-width: 1600px) {
+  #main-buttons {
+    display: none;
+  }
+
+  .navbar {
+    height: 60px;
+  }
+
+  #logan-home {
+    font-size: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+  }
 }
