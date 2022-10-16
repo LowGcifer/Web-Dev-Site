@@ -202,6 +202,14 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  #home-image-one-container {
+    margin-bottom: 0;
+  }
+
+  #home-image-two-container {
+    margin-bottom: 10px;
+  }
+
   #home-image-paragraph-one {
     font-size: 6vw;
     text-align: center;
@@ -272,11 +280,13 @@
 
 @media only screen and (max-width: 1024px) {
   #home-final-section {
-    height: 200px;
+    /* height: 130px; */
+    height: 31.4vw;
   }
 
   #home-final-text {
-    font-size: 19px;
+    /* font-size: 19px; */
+    font-size: 4.589vw;
   }
 
   #learn-more-button {
@@ -292,7 +302,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    /* height: 150px; */
   }
 }
 
@@ -409,7 +419,7 @@
 @media only screen and (max-width: 1024px) {
   .button-style {
     width: 142px;
-    height: 45px;
+    height: 46px;
     font-size: 14px;
   }
 }
