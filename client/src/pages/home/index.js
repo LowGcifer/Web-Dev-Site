@@ -28,7 +28,7 @@ function Home() {
           </p>
         </div>
         <div id="home-image-area">
-          <div>
+          <div id="home-image-one-container">
             <div id="home-image-one"></div>
             <p id="home-image-paragraph-one">
               <span>
@@ -39,7 +39,7 @@ function Home() {
               </span>
             </p>
           </div>
-          <div>
+          <div id="home-image-two-container">
             <div id="home-image-two"></div>
             <p id="home-image-paragraph-two">
               <span>
