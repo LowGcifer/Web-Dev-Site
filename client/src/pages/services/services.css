@@ -121,6 +121,18 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  #services-cost-head {
+    text-align: center;
+    left: 0;
+    top: 5vw;
+  }
+
+  #services-cost-body {
+    font-size: 3.5vw;
+    text-align: center;
+    left: 0;
+    top: 1vw;
+  }
 }
 
 #services-question-section {
@@ -191,6 +203,13 @@
   width: 254px;
   height: 112px;
   transition: 0.3s;
+}
+
+@media only screen and (max-width: 1024px) {
+  #question-box-header {
+    text-align: center;
+    left: 0;
+  }
 }
 
 #button-section {
