@@ -131,6 +131,13 @@
     margin-right: auto;
     left: 0px; */
   }
+
+  #hamburger {
+    /* position: absolute;
+    top: 5%;
+    left: 2rem; */
+    display: fixed;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -144,8 +151,8 @@
 
   #logan-home {
     font-size: 30px;
-    margin-left: auto;
+    /* margin-left: auto;
     margin-right: auto;
-    left: 0px;
+    left: 0px; */
   }
 }

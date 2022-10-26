@@ -2,6 +2,7 @@ import "../../fonts.css";
 import React from "react";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
+import Hamburger from "../../components/Hamburger";
 import { useState } from "react";
 
 function Navbar() {
@@ -15,7 +16,9 @@ function Navbar() {
         </NavLink>
       </li>
 
-      <li id="hamburger"></li>
+      <li id="hamburger">
+        <Hamburger></Hamburger>
+      </li>
 
       <div id="main-buttons">
         <li id="home-nav">

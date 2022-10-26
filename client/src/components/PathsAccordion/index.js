@@ -1,25 +1,25 @@
 import "../../fonts.css";
 import "./pathsaccordion.css";
+import React from "react";
+// import Accordion from "react-bootstrap/Accordion";
+// import "bootstrap/dist/css/bootstrap.min.css";
+
 import { useState } from "react";
 
-function PathsAccordion() {
-  const pathsSections = [
-    {
-      title: "You already have a design:",
-      content:
-        "This means either you or a web designer have already created a web design, now you just need someone to turn that design into a real website.",
-    },
-    {
-      title: "You're starting from scratch:",
-      content: "This means you have nothing.",
-    },
-  ];
+const PathsAccordion = ({ title, content }) => {
+  const [isActive, setIsActive] = useState(false);
 
   return (
-    <div>
-      <p>Hello World!</p>
+    <div className="accordion-container">
+      <div className="accordion">
+        <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+          <div>{title}</div>
+          <div>{isActive ? "-" : "+"}</div>
+        </div>
+        {isActive && <div className="accordion-content">{content}</div>}
+      </div>
     </div>
   );
-}
+};
 
 export default PathsAccordion;

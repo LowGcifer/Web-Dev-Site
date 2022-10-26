@@ -91,12 +91,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  /* #services-paths {
+  #services-paths {
     display: none;
-  } */
+  }
 
   #services-paths-mobile {
     display: flex;
+    justify-content: center;
   }
 }
 

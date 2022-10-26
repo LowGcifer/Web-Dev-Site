@@ -5,6 +5,7 @@ import QuestionBox from "../../components/QuestionBox";
 import "./services.css";
 // import Accordion from "react-bootstrap/Accordion";
 import PathsAccordion from "../../components/PathsAccordion";
+import { pathsSections } from "../../utils/content";
 
 function Services() {
   return (
@@ -60,7 +61,9 @@ function Services() {
         </div>
 
         <div id="services-paths-mobile">
-          <PathsAccordion></PathsAccordion>
+          {pathsSections.map(({ title, content }) => (
+            <PathsAccordion title={title} content={content} />
+          ))}
         </div>
         <div id="services-cost">
           <p id="services-cost-head">How much will this cost?</p>
