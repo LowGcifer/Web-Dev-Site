@@ -34,3 +34,27 @@ export const pathsSections = [
     work!`,
   },
 ];
+
+export const questionsAccordionContent = [
+  {
+    title: "Do you design websites directly?",
+    content: "Opus Eponymous",
+  },
+  {
+    title: "I think I need more than a website",
+    content: "Infestissumam",
+  },
+  {
+    title: "What does long-term support look like?",
+    content: "Meliora",
+  },
+  {
+    title:
+      "I'm a designer in need of a developer for a project, can I hire you?",
+    content: "Prequelle",
+  },
+  {
+    title: "When can we start?",
+    content: "Impera",
+  },
+];

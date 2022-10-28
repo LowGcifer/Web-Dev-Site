@@ -207,10 +207,26 @@
   transition: 0.3s;
 }
 
+#question-accordion-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   #question-box-header {
     text-align: center;
     left: 0;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  #question-box-container {
+    display: none;
+  }
+
+  #question-accordion-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 

@@ -6,6 +6,7 @@ import "./services.css";
 // import Accordion from "react-bootstrap/Accordion";
 import PathsAccordion from "../../components/PathsAccordion";
 import { pathsSections } from "../../utils/content";
+import { questionsAccordionContent } from "../../utils/content";
 
 function Services() {
   return (
@@ -81,6 +82,12 @@ function Services() {
           <p id="question-box-header">Some Other Questions You May Have</p>
           <div id="question-box-container">
             <QuestionBox></QuestionBox>
+          </div>
+
+          <div id="question-accordion-mobile">
+            {questionsAccordionContent.map(({ title, content }) => (
+              <PathsAccordion title={title} content={content} />
+            ))}
           </div>
         </div>
         <div id="button-section">
