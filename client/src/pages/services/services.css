@@ -218,7 +218,7 @@
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 685px) {
   #question-box-container {
     display: none;
   }
@@ -232,6 +232,9 @@
 
 #button-section {
   height: 300px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
   /* display: flex;
   align-items: center;
   justify-content: center; */
@@ -239,7 +242,7 @@
 
 #set-up-button {
   position: relative;
-  left: 38.6%;
+  /* left: 38.6%; */
 }
 
 .long-button-style {
