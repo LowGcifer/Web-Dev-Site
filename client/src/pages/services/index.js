@@ -69,16 +69,22 @@ function Services() {
           ))}
         </div>
         <div id="services-cost">
-          <p id="services-cost-head">How much will this cost?</p>
-          <p id="services-cost-body">
-            The answer to this question varies on a case-by-case <br></br>basis.
-            Some websites require hours upon hours of work, <br></br>and others
-            can be knocked out much quicker. In general, <br></br> I charge
-            hourly and charge $50/hr. This is only for my <br></br>web
-            development services, the cost of any web design <br></br>services
-            from 929 Studios will be determined separately.
-          </p>
-          <div id="services-cost-image"></div>
+          <div id="services-cost-text">
+            <p id="services-cost-head">How much will this cost?</p>
+            <p id="services-cost-body">
+              The answer to this question varies on a case-by-case <br></br>
+              basis. Some websites require hours upon hours of work, <br></br>
+              and others can be knocked out much quicker. In general, <br></br>{" "}
+              I charge hourly and charge $50/hr. This is only for my <br></br>
+              web development services, the cost of any web design <br></br>
+              services from 929 Studios will be determined separately.
+            </p>
+          </div>
+          <img
+            src={require("../../images/services-price-pic.jpg")}
+            alt="Man's hands typing code on a laptop"
+            id="services-cost-image"
+          ></img>
         </div>
         <div id="services-question-section">
           <p id="question-box-header">Some Other Questions You May Have</p>

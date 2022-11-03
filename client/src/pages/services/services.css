@@ -105,21 +105,37 @@
 #services-cost {
   height: 660px;
   background-color: #4e4848;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #services-cost-head {
   font-size: 50px;
   position: relative;
-  left: 12.5%;
-  top: 9%;
+  /* left: 12.5%;
+  top: 9%; */
 }
 
 #services-cost-body {
   /* font-size: 40px; */
   font-size: 2vw;
   position: relative;
-  left: 12.5%;
-  top: 9%;
+  /* left: 12.5%;
+  top: 9%; */
+}
+
+#services-cost-text {
+  position: relative;
+}
+
+#services-cost-image {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  border: 45px solid #3e3b3b;
 }
 
 @media only screen and (max-width: 1024px) {
