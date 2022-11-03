@@ -138,6 +138,12 @@
   border: 45px solid #3e3b3b;
 }
 
+@media only screen and (max-width: 1212px) {
+  #services-cost {
+    height: 950px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   #services-cost-head {
     text-align: center;
@@ -365,8 +371,8 @@
 /* box-shadow: inset 0px 0px 0px 2px;
 } */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 520px) {
   .long-button-style {
-    width: 50px;
+    width: 20rem;
   }
 }
