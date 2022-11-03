@@ -8,7 +8,7 @@
 }
 
 #services-header-container {
-  height: 300px;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,10 +21,15 @@
   bottom: 221px; */
   font-size: 80px;
 }
+@media only screen and (max-width: 720px) {
+  #services-header-text {
+    font-size: 4rem;
+  }
+}
 
 #services-paths {
   /* height: 1150px; */
-  height: 60vw;
+  height: 65vw;
   position: relative;
   /* bottom: 100px; */
 }
@@ -140,22 +145,25 @@
 
 @media only screen and (max-width: 1212px) {
   #services-cost {
-    height: 950px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  #services-cost-head {
-    text-align: center;
-    left: 0;
-    top: 5vw;
+    height: 900px;
   }
 
   #services-cost-body {
-    font-size: 3.5vw;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #services-cost-head {
     text-align: center;
     left: 0;
-    top: 1vw;
+    /* top: 5vw; */
+  }
+
+  #services-cost-body {
+    font-size: 1rem;
+    text-align: center;
+    /* top: 1vw; */
   }
 }
 
