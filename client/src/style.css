@@ -150,10 +150,12 @@
 }
 
 #home-image-one {
-  background-image: url("./images/cropped-home-1.jpg");
+  /* background-image: url("./images/cropped-home-1.jpg"); */
   position: relative;
-  height: 400px;
-  width: 744px;
+  max-width: 100%;
+  height: auto;
+  /* height: 400px;
+  width: 744px; */
   /* left: 7.5%; */
   /* top: 81px; */
   border: 45px solid #191818;
@@ -181,10 +183,12 @@
 }
 
 #home-image-two {
-  background-image: url("./images/cropped-home-2.jpg");
+  /* background-image: url("./images/cropped-home-2.jpg"); */
   position: relative;
-  height: 584px;
-  width: 584px;
+  max-width: 100%;
+  height: auto;
+  /* height: 584px;
+  width: 584px; */
   /* top: 107px; */
   /* bottom: 107px;
   left: 56.354167%; */

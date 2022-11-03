@@ -9,6 +9,8 @@ import { pathsSections } from "../../utils/content";
 import { questionsAccordionContent } from "../../utils/content";
 
 function Services() {
+  // const
+
   return (
     <div className="default-color">
       <Navbar></Navbar>

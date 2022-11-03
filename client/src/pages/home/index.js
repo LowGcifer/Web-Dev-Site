@@ -29,7 +29,11 @@ function Home() {
         </div>
         <div id="home-image-area">
           <div id="home-image-one-container">
-            <div id="home-image-one"></div>
+            <img
+              src={require("../../images/cropped-home-1.jpg")}
+              alt="Lines of Code"
+              id="home-image-one"
+            ></img>
             <p id="home-image-paragraph-one">
               <span>
                 {" "}
@@ -40,7 +44,11 @@ function Home() {
             </p>
           </div>
           <div id="home-image-two-container">
-            <div id="home-image-two"></div>
+            <img
+              src={require("../../images/cropped-home-2.jpg")}
+              alt="Woman typing at a laptop"
+              id="home-image-two"
+            ></img>
             <p id="home-image-paragraph-two">
               <span>
                 Or start from scratch and work<br></br>with highly qualified web

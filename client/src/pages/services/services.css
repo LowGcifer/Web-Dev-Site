@@ -348,3 +348,9 @@
   outline-offset: -10px; */
 /* box-shadow: inset 0px 0px 0px 2px;
 } */
+
+@media only screen and (max-width: 1024px) {
+  .long-button-style {
+    width: 50px;
+  }
+}

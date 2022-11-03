@@ -25,4 +25,11 @@
 .accordion-content {
   text-align: center;
   background-color: #4e4848;
+  max-height: 200px;
+  transition: max-height 0.2s ease-in-out;
+}
+
+.accordion-content[aria-expanded="true"] {
+  max-height: 0px;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }

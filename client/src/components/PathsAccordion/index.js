@@ -16,7 +16,11 @@ const PathsAccordion = ({ title, content }) => {
           <div>{title}</div>
           <div>{isActive ? "-" : "+"}</div>
         </div>
-        {isActive && <div className="accordion-content">{content}</div>}
+        {isActive && (
+          <div className="accordion-content" aria-expanded={!isActive}>
+            {content}
+          </div>
+        )}
       </div>
     </div>
   );
