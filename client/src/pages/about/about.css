@@ -53,11 +53,14 @@
   justify-content: center;
   align-items: center; */
   height: 321px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #work-with-button {
   position: relative;
-  left: 38.6%;
+  /* left: 38.6%; */
 }
 
 .long-button-style {

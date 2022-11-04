@@ -269,17 +269,19 @@
 
 #final-button-section {
   height: 200px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #learn-more-button {
   position: relative;
-  left: 23.59375%;
+  /* left: 23.59375%; */
 }
 
 #contact-button {
   position: relative;
-  left: 60.78125%;
-  bottom: 96px;
+  /* left: 60.78125%;
+  bottom: 96px; */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -421,6 +423,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  #final-button-section {
+    height: 125px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   .button-style {
     width: 142px;
     height: 46px;
