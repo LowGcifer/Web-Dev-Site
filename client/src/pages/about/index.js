@@ -16,7 +16,10 @@ function About() {
             guitarist! In 2021, I got <br></br>my certification in Full Stack
             Web <br></br>Development from Columbia University.
           </p>
-          <div id="about-image-one"></div>
+          <img
+            src={require("../../images/About-Me-1.jpg")}
+            id="about-image-one"
+          ></img>
         </div>
         <div id="about-row-two">
           <p id="about-paragraph-two">
@@ -26,6 +29,7 @@ function About() {
             coding was a very obvious path for me to <br></br>go down, and here
             I am today! Making <br></br>websites for people!
           </p>
+          <img src={require("../../images/About-Me-2.jpg")}></img>
         </div>
         <div id="about-button-section">
           <a

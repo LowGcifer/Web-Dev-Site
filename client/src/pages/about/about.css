@@ -22,11 +22,14 @@
   font-size: 35px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 #about-paragraph-one {
   position: relative;
-  left: 21.2%;
+  text-align: right;
+  /* left: 21.2%; */
 }
 
 #about-row-two {
@@ -35,11 +38,14 @@
   font-size: 35px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
 }
 
 #about-paragraph-two {
   position: relative;
-  left: 50.6%;
+  text-align: left;
+  /* left: 50.6%; */
 }
 
 #about-button-section {

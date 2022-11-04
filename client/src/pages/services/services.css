@@ -143,7 +143,7 @@
   border: 45px solid #3e3b3b;
 }
 
-@media only screen and (max-width: 1212px) {
+@media only screen and (max-width: 1250px) {
   #services-cost {
     height: 900px;
   }
@@ -161,14 +161,14 @@
   }
 
   #services-cost-body {
-    font-size: 3.5vw;
+    font-size: 4vw;
     text-align: center;
     /* top: 1vw; */
   }
 }
 
 #services-question-section {
-  height: 800px;
+  height: 650px;
   /* overflow-y: hidden; */
   /* display: flex;
   justify-content: center;
@@ -265,6 +265,7 @@
   display: flex;
   /* align-items: center; */
   justify-content: center;
+  align-items: center;
   /* display: flex;
   align-items: center;
   justify-content: center; */
