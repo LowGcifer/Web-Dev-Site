@@ -24,6 +24,7 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
 }
 
 #about-paragraph-one {
@@ -40,6 +41,7 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 #about-paragraph-two {
@@ -158,5 +160,11 @@
     border-right-color: transparent;
     border-bottom-color: white;
     border-left-color: white;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .long-button-style {
+    width: 20rem;
   }
 }
