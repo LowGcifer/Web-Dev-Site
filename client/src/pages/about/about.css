@@ -50,6 +50,10 @@
   /* left: 50.6%; */
 }
 
+.about-images {
+  border: 45px solid #191818;
+}
+
 #about-button-section {
   /* display: flex;
   justify-content: center;

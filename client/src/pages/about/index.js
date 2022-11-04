@@ -18,7 +18,7 @@ function About() {
           </p>
           <img
             src={require("../../images/About-Me-1.jpg")}
-            id="about-image-one"
+            className="about-images"
           ></img>
         </div>
         <div id="about-row-two">
@@ -29,7 +29,10 @@ function About() {
             coding was a very obvious path for me to <br></br>go down, and here
             I am today! Making <br></br>websites for people!
           </p>
-          <img src={require("../../images/About-Me-2.jpg")}></img>
+          <img
+            className="about-images"
+            src={require("../../images/About-Me-2.jpg")}
+          ></img>
         </div>
         <div id="about-button-section">
           <a
