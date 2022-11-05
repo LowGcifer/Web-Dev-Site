@@ -108,13 +108,15 @@
 }
 
 #services-cost {
-  height: 660px;
+  height: 600px;
   background-color: #4e4848;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: inset black 0px 0px 0px 1px;
+  border: 18.5px solid #4e4848;
 }
 
 #services-cost-head {
@@ -143,7 +145,7 @@
   border: 45px solid #3e3b3b;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1321px) {
   #services-cost {
     height: 900px;
   }
