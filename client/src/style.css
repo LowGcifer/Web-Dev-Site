@@ -248,12 +248,12 @@
 
 @media only screen and (max-width: 1024px) {
   #callout-home {
-    height: 224px;
+    height: 150px;
     /* height: 170px; */
   }
 
   #callout-text {
-    font-size: 3.5vw;
+    font-size: 3.2vw;
   }
 }
 
