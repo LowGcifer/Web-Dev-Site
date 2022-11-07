@@ -185,6 +185,10 @@
   #services-cost-body {
     font-size: 3.7vw;
   }
+
+  #services-cost-body br {
+    display: none;
+  }
 }
 
 #services-question-section {

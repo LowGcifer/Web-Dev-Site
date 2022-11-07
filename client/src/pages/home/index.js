@@ -62,10 +62,10 @@ function Home() {
         </div>
         <div id="callout-home">
           <p id="callout-text">
-            Anyone can use the same WordPress theme that 1000 other<br></br>
-            businesses are using. In the age of the internet, having a<br></br>
+            Anyone can use the same WordPress theme that 1000 other <br></br>
+            businesses are using. In the age of the internet, having a <br></br>
             unique, standout web presence is essential in crafting a brand
-            <br></br>that stands apart from your competitors.
+            <br></br> that stands apart from your competitors.
           </p>
         </div>
         <div id="home-final-section">

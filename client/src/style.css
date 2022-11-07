@@ -258,7 +258,12 @@
   }
 
   #callout-text {
-    font-size: 3.425vw;
+    font-size: 4vw;
+    width: 350px;
+  }
+
+  #callout-text br {
+    display: none;
   }
 }
 
