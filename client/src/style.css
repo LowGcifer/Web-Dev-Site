@@ -111,6 +111,7 @@
 @media only screen and (max-width: 1024px) {
   .home-lead {
     height: 45vw;
+    border: 13.5px solid #4e4848;
     /* display: flex;
     justify-content: center; */
   }
