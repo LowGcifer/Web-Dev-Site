@@ -8,7 +8,7 @@ function Contact() {
       <Navbar></Navbar>
       <div id="contact-body">
         <div id="contact-head-container">
-          <p id="contact-header">Contact Me</p>
+          <h1 id="contact-header">Contact Me</h1>
         </div>
 
         <Calendly></Calendly>

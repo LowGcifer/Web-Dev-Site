@@ -12,19 +12,22 @@
 }
 
 #contact-head-container {
-  height: 200px;
+  height: 190px;
   display: flex;
   justify-content: center;
 }
 
 #contact-header {
   font-family: Orbitron;
+  position: relative;
   font-size: 80px;
 }
 
 #calendly-container {
   /* width: 750px; */
-  height: 1000px;
+  height: 750px;
+  display: flex;
+  justify-content: center;
   /* display: flex;
   align-items: center;
   justify-content: center; */
