@@ -163,9 +163,19 @@
   }
 
   #services-cost-body {
-    font-size: 4vw;
+    font-size: 3.3vw;
     text-align: center;
     /* top: 1vw; */
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #services-cost {
+    box-shadow: none;
+  }
+
+  #services-cost-body {
+    font-size: 3.7vw;
   }
 }
 
