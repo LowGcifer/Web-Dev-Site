@@ -40,3 +40,9 @@
   position: relative;
   top: 200px;
 }
+
+@media only screen and (max-width: 500px) {
+  #contact-head-container {
+    height: 250px;
+  }
+}
