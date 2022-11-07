@@ -171,7 +171,15 @@
 
 @media only screen and (max-width: 680px) {
   #services-cost {
-    box-shadow: none;
+    height: 450px;
+  }
+
+  #services-cost-head {
+    font-size: 8vw;
+  }
+
+  #services-cost-image {
+    display: none;
   }
 
   #services-cost-body {
