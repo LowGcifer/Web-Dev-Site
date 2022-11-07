@@ -155,6 +155,12 @@
   }
 }
 
+@media only screen and (max-width: 1284px) {
+  #services-cost-body {
+    font-size: 1.625rem;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   #services-cost-head {
     text-align: center;
