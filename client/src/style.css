@@ -258,12 +258,18 @@
   }
 
   #callout-text {
-    font-size: 4vw;
-    width: 350px;
+    font-size: 3.25vw;
   }
 
   #callout-text br {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #callout-text {
+    font-size: 4vw;
+    width: 350px;
   }
 }
 
