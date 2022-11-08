@@ -111,12 +111,22 @@
   /* bottom: 50px; */
 }
 
+/* @media only screen and (max-width: 1164px) {
+  .home-lead {
+    box-shadow: 0px 0px 0px 0px;
+  }
+} */
+
 @media only screen and (max-width: 1024px) {
   .home-lead {
     height: 45vw;
     border: 10px solid #4e4848;
     /* display: flex;
     justify-content: center; */
+  }
+
+  #home-lead-head br {
+    display: none;
   }
 
   #home-lead-head {
