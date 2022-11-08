@@ -93,6 +93,16 @@
   }
 }
 
+@media only screen and (max-width: 750px) {
+  #about-paragraph-one {
+    margin: 25px;
+  }
+
+  #about-paragraph-two {
+    margin: 20px;
+  }
+}
+
 @media only screen and (max-width: 720px) {
   #about-paragraph-one br {
     display: none;
@@ -105,10 +115,12 @@
 
 @media only screen and (max-width: 580px) {
   #about-paragraph-one {
+    margin: 5px;
     font-size: 6vw;
   }
 
   #about-paragraph-two {
+    margin: 15px;
     font-size: 6vw;
   }
 }
