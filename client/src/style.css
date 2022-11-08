@@ -212,10 +212,14 @@
 @media only screen and (max-width: 1424px) {
   #home-image-one-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #home-image-two-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   #home-image-paragraph-one {
@@ -230,10 +234,12 @@
 @media only screen and (max-width: 1024px) {
   #home-image-one-container {
     margin-bottom: 0;
+    flex-direction: row;
   }
 
   #home-image-two-container {
     margin-bottom: 10px;
+    flex-direction: row;
   }
 }
 
@@ -330,6 +336,12 @@
   position: relative;
   /* left: 60.78125%;
   bottom: 96px; */
+}
+
+@media only screen and (max-width: 1600px) {
+  #home-final-text br {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1024px) {

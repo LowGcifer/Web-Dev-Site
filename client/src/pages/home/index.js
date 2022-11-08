@@ -71,7 +71,7 @@ function Home() {
         <div id="home-final-section">
           <p id="home-final-text">
             Hi, I'm Logan Isley, I'm a Columbia-Certified Full-Stack Web
-            Developer,<br></br>and I'm going to bring your website to the 21st
+            Developer, <br></br> and I'm going to bring your website to the 21st
             Century.
           </p>
         </div>
