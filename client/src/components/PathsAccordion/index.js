@@ -1,6 +1,7 @@
 import "../../fonts.css";
 import "./pathsaccordion.css";
 import React from "react";
+import { useSpring, animated } from "react-spring";
 // import Accordion from "react-bootstrap/Accordion";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,9 +10,15 @@ import { useState } from "react";
 const PathsAccordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
+  const openAnimation = useSpring({
+    from: { opacity: "0", maxHeight: "50px" },
+    to: { opacity: "1", maxHeight: isActive ? "500px" : "50px" },
+    config: { duration: "300" },
+  });
+
   return (
     <div className="accordion-container">
-      <div className="accordion">
+      <animated.div className="accordion" style={openAnimation}>
         <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
           <div>{title}</div>
           <div>{isActive ? "-" : "+"}</div>
@@ -21,7 +28,7 @@ const PathsAccordion = ({ title, content }) => {
             {content}
           </div>
         )}
-      </div>
+      </animated.div>
     </div>
   );
 };
