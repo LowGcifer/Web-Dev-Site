@@ -24,6 +24,12 @@
   font-size: 90px;
 }
 
+@media only screen and (max-width: 720px) {
+  #contact-header {
+    font-size: 4rem;
+  }
+}
+
 #calendly-container {
   /* width: 750px; */
   height: 700px;
