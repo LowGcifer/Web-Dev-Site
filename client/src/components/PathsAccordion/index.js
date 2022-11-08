@@ -11,8 +11,8 @@ const PathsAccordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   const openAnimation = useSpring({
-    from: { opacity: "0", maxHeight: "50px" },
-    to: { opacity: "1", maxHeight: isActive ? "500px" : "50px" },
+    from: { opacity: "0", maxHeight: "75px" },
+    to: { opacity: "1", maxHeight: isActive ? "500px" : "75px" },
     config: { duration: "300" },
   });
 
