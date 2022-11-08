@@ -31,6 +31,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   position: relative;
+  font-size: 30px;
   /* left: 54vw; */
   margin-left: auto;
 }
@@ -45,7 +46,7 @@
 
 #home-nav {
   font-family: Kanit;
-  font-size: 30px;
+  /* font-size: 30px; */
   display: inline;
   /* position: absolute; */
 
@@ -58,7 +59,7 @@
 
 #about-nav {
   font-family: Kanit;
-  font-size: 30px;
+  /* font-size: 30px; */
   display: inline;
   /* position: absolute; */
 
@@ -71,7 +72,7 @@
 
 #services-nav {
   font-family: Kanit;
-  font-size: 30px;
+  /* font-size: 30px; */
   display: inline;
   /* position: absolute; */
 
@@ -83,7 +84,7 @@
 
 #contact-nav {
   font-family: Kanit;
-  font-size: 30px;
+  /* font-size: 30px; */
   display: inline;
   /* position: absolute; */
 
@@ -142,15 +143,17 @@
 
 @media screen and (max-width: 1024px) {
   .navbar-custom {
-    height: 60px;
+    height: 40px;
   }
 
   #main-buttons {
-    display: none;
+    font-size: 15px;
+    height: 40px;
+    width: 225px;
   }
 
   #logan-home {
-    font-size: 30px;
+    font-size: 20px;
     /* margin-left: auto;
     margin-right: auto;
     left: 0px; */
