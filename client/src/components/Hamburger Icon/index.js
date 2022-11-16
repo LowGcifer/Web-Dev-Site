@@ -2,8 +2,11 @@ import * as React from "react";
 import "./hamburger.css";
 
 const Hamburger = (props) => (
-  <div>
-    <svg
+  <div className="hamburger-icon">
+    <div className="burger burger1" />
+    <div className="burger burger2" />
+    <div className="burger burger3" />
+    {/* <svg
       alt="Hamburger Menu"
       xmlns="http://www.w3.org/2000/svg"
       width={310}
@@ -25,7 +28,7 @@ const Hamburger = (props) => (
         }}
         transform="translate(10.016 -803.031)"
       />
-    </svg>
+    </svg> */}
   </div>
 );
 

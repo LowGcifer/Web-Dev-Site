@@ -83,7 +83,7 @@ function Navbar() {
               padding-right: 15px;
               flex-direction: column;
               width: 100vw;
-              height: 22.5vh;
+              height: 190px;
               background-color: black;
               border-top: 2px solid #3f58ac;
               justify-content: right;
