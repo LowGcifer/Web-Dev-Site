@@ -4,7 +4,9 @@ import { useState } from "react";
 
 function QuestionBox() {
   const [isActive, setIsActive] = useState(1);
-  const [boxText, setBoxText] = useState("Opus Eponymous");
+  const [boxText, setBoxText] = useState(
+    "It depends on the scope of the project. Design usually takes a week or less, but the development phase can take 2-4 weeks for a basic website to several months for an expansive application. I can determine specific dates during our Zoom calls."
+  );
   const handleClick = (index) => {
     setIsActive(index);
   };
@@ -15,7 +17,9 @@ function QuestionBox() {
         <div id="question-boxes-area">
           <button
             onClick={() => {
-              setBoxText("Opus Eponymous");
+              setBoxText(
+                "It depends on the scope of the project. Design usually takes a week or less, but the development phase can take 2-4 weeks for a basic website to several months for an expansive application. I can determine specific dates during our Zoom calls."
+              );
               handleClick(1);
             }}
             className={
@@ -24,14 +28,16 @@ function QuestionBox() {
           >
             <h2>
               <p>
-                Do you design websites <br></br>directly?
+                What is project turnaround <br></br>like?
               </p>
             </h2>
             {/* <p>Lorem ipsum</p> */}
           </button>
           <button
             onClick={() => {
-              setBoxText("Infestissumam");
+              setBoxText(
+                "I am a web developer and designer. While I personally limit my work to this area, I do have connections to people who work with other areas of brand design, marketing, etc."
+              );
               handleClick(2);
             }}
             className={
@@ -47,7 +53,9 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("Meliora");
+              setBoxText(
+                "This depends on whether I host your website or not. If I host your website, I will be personally in charge of making sure your website is up and running 24/7. If you decide to host your website elsewhere, then I will not be in charge of making sure your website is up and running at all times. I can be contacted about performing maintenance on your website anyway, but it will not be automatically covered by a monthly hosting rate."
+              );
               handleClick(3);
             }}
             className={
@@ -63,7 +71,9 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("Prequelle");
+              setBoxText(
+                "Yes! I work with anyone who needs a website. Business owners, designers looking to hire a developer for a project, or even developers looking for a designer."
+              );
               handleClick(4);
             }}
             className={
@@ -80,7 +90,9 @@ function QuestionBox() {
           </button>
           <button
             onClick={() => {
-              setBoxText("Impera");
+              setBoxText(
+                "On my Contact page you will find a window to my Calendly. If my calendar is completing blocked off, it means I am not accepting new projects at the moment. When my calendar is open, you can schedule a call and we can discuss your project! "
+              );
               handleClick(5);
             }}
             className={

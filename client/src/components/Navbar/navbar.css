@@ -9,95 +9,38 @@
   top: 0;
   z-index: 100;
   list-style: none;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
-/* #main-buttons-container {
-  width: 85vw;
+.navbar-custom ul {
   display: flex;
-  justify-content: right;
-  height: 73px;
-} */
-
-#hamburger {
-  display: none;
-}
-
-#main-buttons {
-  display: flex;
-  height: 73px;
+  height: 0px;
   width: 36rem;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
   position: relative;
   font-size: 30px;
-  /* left: 54vw; */
   margin-left: auto;
+  font-family: Kanit;
+  background-color: black;
+  list-style: none;
 }
 
 #logan-home {
   font-family: Orbitron;
   font-size: 40px;
   position: relative;
-  /* top: 10%; */
   left: 3.8%;
-}
-
-#home-nav {
-  font-family: Kanit;
-  /* font-size: 30px; */
-  display: inline;
-  /* position: absolute; */
-
-  /* left: 1450px; */
-  /* left: 68.75%; */
-
-  /* top: 25%; */
-  background-color: black;
-}
-
-#about-nav {
-  font-family: Kanit;
-  /* font-size: 30px; */
-  display: inline;
-  /* position: absolute; */
-
-  /* left: 1550px; */
-  /* left: 74.5%; */
-
-  /* top: 25%; */
-  background-color: black;
-}
-
-#services-nav {
-  font-family: Kanit;
-  /* font-size: 30px; */
-  display: inline;
-  /* position: absolute; */
-
-  /* left: 1650px; */
-  /* left: 81.4%; */
-  /* top: 25%; */
-  background-color: black;
-}
-
-#contact-nav {
-  font-family: Kanit;
-  /* font-size: 30px; */
-  display: inline;
-  /* position: absolute; */
-
-  /* left: 1750px; */
-  /* left: 89.5%; */
-
-  /* top: 25%; */
-  background-color: black;
 }
 
 .navlink-custom {
   text-decoration: none;
   color: white;
+}
+
+.navbar-mobile {
+  display: none;
 }
 
 .navlink-custom:after {
@@ -118,7 +61,7 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
-  #main-buttons {
+  .navbar-custom ul {
     width: 36rem;
   }
 
@@ -132,31 +75,19 @@
     margin-right: auto;
     left: 0px; */
   }
-
-  #hamburger {
-    /* position: absolute;
-    top: 5%;
-    left: 2rem; */
-    display: fixed;
-  }
 }
 
 @media screen and (max-width: 1024px) {
-  .navbar-custom {
-    height: 50px;
-  }
-
-  #main-buttons {
-    font-size: 17.5px;
-    height: 40px;
-    width: 280px;
+  .navbar-mobile {
+    display: inline;
   }
 
   #logan-home {
-    font-size: 17.5px;
-    width: 50px;
-    /* margin-left: auto;
-    margin-right: auto;
-    left: 0px; */
+    font-size: 25px;
+  }
+
+  .navbar-custom {
+    display: flex;
+    justify-content: space-between;
   }
 }

@@ -74,10 +74,13 @@ function Services() {
             <p id="services-cost-body">
               The answer to this question varies on a case-by-case <br></br>
               basis. Some websites require hours upon hours of work, <br></br>
-              and others can be knocked out much quicker. In general, <br></br>{" "}
+              and others can be knocked out much quicker. I charge <br></br>
+              based on the amount of time I expect a project to take. <br></br>I
+              also bill the design and development phases separately.
+              {/* and others can be knocked out much quicker. In general, <br></br>{" "}
               I charge hourly and charge $50/hr. This is only for my <br></br>
               web development services, the cost of any web design <br></br>
-              services from 929 Studios will be determined separately.
+              services from 929 Studios will be determined separately. */}
             </p>
           </div>
           <img

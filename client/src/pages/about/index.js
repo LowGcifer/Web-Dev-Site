@@ -19,6 +19,7 @@ function About() {
           <img
             src={require("../../images/About-Me-1.jpg")}
             className="about-images"
+            alt="Logan Isley"
           ></img>
         </div>
         <div id="about-row-two">
@@ -32,6 +33,7 @@ function About() {
           <img
             className="about-images"
             src={require("../../images/About-Me-2.jpg")}
+            alt="More Logan"
           ></img>
         </div>
         <div id="about-button-section">
