@@ -76,15 +76,18 @@ function Navbar() {
         {`
           @media (max-width: 1024px) {
             .navbar-custom ul {
-              display: ${isNavExpanded ? "inline" : "none"};
+              display: ${isNavExpanded ? "flex" : "none"};
               position: absolute;
               top: 43px;
-              left: 0px;
+              right: 0;
+              padding-right: 15px;
               flex-direction: column;
               width: 100vw;
               height: 100vh;
               background-color: black;
               border-top: 2px solid #3f58ac;
+              justify-content: right;
+              align-items: end;
             }
           }
         `}
