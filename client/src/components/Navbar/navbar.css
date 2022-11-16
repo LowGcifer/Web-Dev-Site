@@ -83,6 +83,10 @@
     padding-right: 15px;
   }
 
+  .navbar-custom {
+    height: 60px;
+  }
+
   #logan-home {
     font-size: 30px;
   }
