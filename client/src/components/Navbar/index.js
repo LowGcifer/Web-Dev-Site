@@ -2,7 +2,7 @@ import "../../fonts.css";
 import React from "react";
 import "./navbar.css";
 import { NavLink } from "react-router-dom";
-import Hamburger from "../../components/Hamburger";
+import Hamburger from "../../components/HamburgerIcon";
 import { useState } from "react";
 
 function Navbar() {
