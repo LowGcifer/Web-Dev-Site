@@ -47,7 +47,7 @@ function Navbar() {
       </ul>
       <div className="navbar-mobile">
         <button id="hamburger" onClick={toggleNavExpanded}>
-          <Hamburger />
+          <Hamburger isOpen={isNavExpanded} />
         </button>
 
         {/* <div

@@ -1,37 +1,12 @@
 import * as React from "react";
-import "./hamburger.css";
 
-const Hamburger = (props) => (
+const Hamburger = ({ isOpen }) => (
   <div>
     <div className="hamburger-icon">
       <div className="burger burger1" />
       <div className="burger burger2" />
       <div className="burger burger3" />
     </div>
-
-    {/* <svg
-      alt="Hamburger Menu"
-      xmlns="http://www.w3.org/2000/svg"
-      width={310}
-      height={259.344}
-      {...props}
-    >
-      <title>{"Hamburger (Menu) Icon"}</title>
-      <path
-        d="M19.668 1032.694h250.646M19.668 932.694h250.646M19.668 832.694h250.646"
-        style={{
-          fill: "none",
-          stroke: "#000",
-          strokeWidth: 49.33635712,
-          strokeLinecap: "round",
-          strokeLinejoin: "miter",
-          strokeMiterlimit: 4,
-          strokeOpacity: 1,
-          strokeDasharray: "none",
-        }}
-        transform="translate(10.016 -803.031)"
-      />
-    </svg> */}
 
     <style jsx>
       {`
@@ -56,6 +31,19 @@ const Hamburger = (props) => (
           background-color: white;
           transform-origin: 1px;
           transition: all 0.3s linear;
+        }
+
+        .burger1 {
+          transform: ${isOpen ? "rotate(45deg)" : "rotate(0)"};
+        }
+
+        .burger2 {
+          transform: ${isOpen ? "translateX(100%)" : "translateX(0)"};
+          opacity: ${isOpen ? 0 : 1};
+        }
+
+        .burger3 {
+          transform: ${isOpen ? "rotate(-45deg)" : "rotate(0)"};
         }
       `}
     </style>
