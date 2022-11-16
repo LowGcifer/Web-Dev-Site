@@ -8,6 +8,8 @@ const Hamburger = ({ isOpen }) => (
       <div className="burger burger3" />
     </div>
 
+    {/* Hi */}
+
     <style jsx>
       {`
         button {
