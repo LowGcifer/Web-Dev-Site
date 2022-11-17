@@ -298,28 +298,40 @@
 
 @media only screen and (max-width: 1024px) {
   #callout-home {
-    height: 210px;
+    height: 250px;
     border: 10px solid #4e4848;
     /* height: 170px; */
   }
 
   #callout-text {
-    font-size: 3.25vw;
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  #callout-text {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  #callout-text {
+    font-size: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 425px) {
   #callout-text {
-    font-size: 4vw;
+    font-size: 1.25rem;
     width: 350px;
   }
 }
 
-@media only screen and (max-width: 815px) {
+/* @media only screen and (max-width: 815px) {
   #callout-home {
-    height: 150px;
+    height: 200px;
   }
-}
+} */
 
 #home-final-section {
   height: 200px;
