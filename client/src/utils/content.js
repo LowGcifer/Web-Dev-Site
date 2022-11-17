@@ -37,29 +37,29 @@ export const pathsSections = [
 
 export const questionsAccordionContent = [
   {
-    title: "Do you design websites directly?",
+    title: "What is project turnaround like?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "It depends on the scope of the project. Design usually takes a week or less, but the development phase can take 2-4 weeks for a basic website to several months for an expansive application. I can determine specific dates during our Zoom calls.",
   },
   {
     title: "I think I need more than a website",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "I am a web developer and designer. While I personally limit my work to this area, I do have connections to people who work with other areas of brand design, marketing, etc.",
   },
   {
     title: "What does long-term support look like?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "This depends on whether I host your website or not. If I host your website, I will be personally in charge of making sure your website is up and running 24/7. If you decide to host your website elsewhere, then I will not be in charge of making sure your website is up and running at all times. I can be contacted about performing maintenance on your website anyway, but it will not be automatically covered by a monthly hosting rate.",
   },
   {
     title:
       "I'm a designer in need of a developer for a project, can I hire you?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "Yes! I work with anyone who needs a website. Business owners, designers looking to hire a developer for a project, or even developers looking for a designer.",
   },
   {
     title: "When can we start?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "On my contact page you will find my email as well as a window to schedule a Zoom meeting on my Calendly. I am always down to discuss potential projects!",
   },
 ];
