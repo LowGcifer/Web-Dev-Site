@@ -107,7 +107,7 @@ function QuestionBox() {
         </div>
       </article>
       <div id="answer-box">
-        <p>{boxText}</p>
+        <p id="answer-box-text">{boxText}</p>
       </div>
     </div>
   );

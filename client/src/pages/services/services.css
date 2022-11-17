@@ -240,6 +240,14 @@
   border-top: transparent;
 }
 
+#answer-box-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Kanit;
+  font-size: 30px;
+  text-align: center;
+}
+
 .unselected-question {
   background-color: #1d1d1d;
   font-size: 10px;
@@ -277,15 +285,10 @@
   }
 }
 
-@media only screen and (max-width: 685px) {
+@media only screen and (max-width: 885px) {
   #question-box-container {
     display: none;
   }
-
-  /* #services-question-section {
-    height: 500px;
-  } */
-
   #question-accordion-mobile {
     display: flex;
     justify-content: center;
