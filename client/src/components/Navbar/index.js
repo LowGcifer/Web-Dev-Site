@@ -85,7 +85,6 @@ function Navbar() {
               width: 100vw;
               height: 200px;
               background-color: black;
-              border-top: 2px solid #3f58ac;
               justify-content: right;
               align-items: end;
             }
