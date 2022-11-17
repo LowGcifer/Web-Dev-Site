@@ -80,11 +80,7 @@
 @media screen and (max-width: 1024px) {
   .navbar-mobile {
     display: inline;
-    padding-right: 15px;
-  }
-
-  .navbar-custom {
-    height: 60px;
+    padding-right: 10px;
   }
 
   #logan-home {
@@ -92,6 +88,7 @@
   }
 
   .navbar-custom {
+    height: 60px;
     display: flex;
     justify-content: space-between;
   }

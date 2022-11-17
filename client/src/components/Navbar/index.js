@@ -80,7 +80,7 @@ function Navbar() {
               position: absolute;
               top: 30px;
               right: 0;
-              padding-right: 27.5px;
+              padding-right: 22.5px;
               flex-direction: column;
               width: 100vw;
               height: 200px;
