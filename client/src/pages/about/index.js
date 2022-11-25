@@ -14,7 +14,8 @@ function About() {
           <p id="about-paragraph-one">
             Hi! I'm Logan Isley. I'm a web developer <br></br>and a passionate
             guitarist! In 2021, I got <br></br>my certification in Full Stack
-            Web <br></br>Development from Columbia University.
+            Web <br></br>Development from Columbia University. <br></br> I've
+            worked as a junior designer at 929 <br></br> Studios since mid-2021
           </p>
           <img
             src={require("../../images/About-Me-1.jpg")}
