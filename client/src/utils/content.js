@@ -16,22 +16,15 @@ export const pathsSections = [
   },
   {
     title: "You're starting from scratch:",
-    content: `This means you have nothing.
-    You don't have a design for 
-    your new website. This
-    means you'll not only have
-    a new website developed,
-    but also have one designed
+    content: `We break the project into two steps, design and
+    development. I can handle  both, or I can
+    refer you to  one of the incredible designers 
+    at 929 Studios.
     
-    You'll either work with me or 
-    with my superb connections at
-    929 Studios to get a web design
-    that matches you and your brand.
-    
-    After you have a web design from
-    me or 929 Studios, I'll provide an 
-    estimate for development and begin
-    work!`,
+    Once the design is done  and approved by you, we'll
+                 reconvene and come up with  a quote and
+                turnaround date for your website!
+    `,
   },
 ];
 
