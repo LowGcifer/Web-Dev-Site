@@ -123,6 +123,7 @@
 #services-cost-head {
   font-size: 50px;
   position: relative;
+  font-family: Orbitron;
   /* left: 12.5%;
   top: 9%; */
 }
@@ -131,6 +132,7 @@
   /* font-size: 40px; */
   font-size: 2vw;
   position: relative;
+  font-family: Kanit;
   /* left: 12.5%;
   top: 9%; */
 }
