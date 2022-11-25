@@ -207,11 +207,15 @@
   }
 }
 
+#question-box-header-container {
+  display: flex;
+  justify-content: center;
+}
+
 #question-box-header {
   font-family: Orbitron;
   font-size: 40px;
   position: relative;
-  left: 16.6%;
 }
 
 #question-box-container {

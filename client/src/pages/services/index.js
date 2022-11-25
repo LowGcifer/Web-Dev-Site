@@ -97,7 +97,9 @@ function Services() {
           ></img>
         </div>
         <div id="services-question-section">
-          <p id="question-box-header">Some Other Questions You May Have</p>
+          <div id="question-box-header-container">
+            <p id="question-box-header">Some Other Questions You May Have</p>
+          </div>
           <div id="question-box-container">
             <QuestionBox></QuestionBox>
           </div>
