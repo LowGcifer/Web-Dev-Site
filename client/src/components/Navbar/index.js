@@ -87,6 +87,7 @@ function Navbar() {
               background-color: black;
               justify-content: right;
               align-items: end;
+              font-size: 30px;
             }
           }
         `}
