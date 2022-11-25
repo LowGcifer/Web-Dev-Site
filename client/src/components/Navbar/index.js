@@ -74,7 +74,7 @@ function Navbar() {
 
       <style jsx>
         {`
-          @media (max-width: 1024px) {
+          @media (max-width: 1078px) {
             .navbar-custom ul {
               display: ${isNavExpanded ? "flex" : "none"};
               position: absolute;
