@@ -28,7 +28,7 @@ function QuestionBox() {
           >
             <h2>
               <p>
-                What is project turnaround <br></br>like?
+                What can I expect for <br></br> project turnaround?
               </p>
             </h2>
             {/* <p>Lorem ipsum</p> */}

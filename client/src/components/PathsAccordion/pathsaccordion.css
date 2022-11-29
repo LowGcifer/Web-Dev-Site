@@ -15,7 +15,6 @@
 .accordion-title {
   background-color: #1d1d1d;
   font-family: Orbitron;
-  /* border: 1px solid #4e4848; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -29,8 +28,6 @@
   text-align: center;
   background-color: #4e4848;
   font-family: Kanit;
-  /* max-height: 200px;
-  transition: max-height 0.2s ease-in-out; */
 }
 
 .accordion-content[aria-expanded="true"] {

@@ -30,7 +30,7 @@ export const pathsSections = [
 
 export const questionsAccordionContent = [
   {
-    title: "What is project turnaround like?",
+    title: "What can I expect for project turnaround?",
     content:
       "It depends on the scope of the project. Design usually takes a week or less, but the development phase can take 2-4 weeks for a basic website to several months for an expansive application. I can determine specific dates during our Zoom calls.",
   },
