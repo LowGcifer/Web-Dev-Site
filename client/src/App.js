@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Services from "./pages/services";
 import Contact from "./pages/contact";
 import About from "./pages/about";
+import ScrollToTop from "./components/ScrollToTop";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,6 +16,7 @@ function App() {
   return (
     <Router basename="/">
       <div>
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services" element={<Services />} />
