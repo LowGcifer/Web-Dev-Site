@@ -17,11 +17,13 @@ function Navbar() {
     isActive ? "highlighted" : "navlink-custom";
   return (
     <nav className="navbar-custom">
-      <li id="logan-home">
-        <NavLink className="navlink-custom" to="/">
-          Logan Isley
-        </NavLink>
-      </li>
+      <ul>
+        <li id="logan-home">
+          <NavLink className="navlink-custom" to="/">
+            Logan Isley
+          </NavLink>
+        </li>
+      </ul>
 
       <ul>
         <li id="home-nav">
