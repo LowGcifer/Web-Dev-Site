@@ -9,8 +9,6 @@ import { pathsSections } from "../../utils/content";
 import { questionsAccordionContent } from "../../utils/content";
 
 function Services() {
-  // const
-
   return (
     <div className="default-color">
       <Navbar></Navbar>
@@ -27,7 +25,9 @@ function Services() {
           <div id="services-paths-top-line"></div>
           <div id="services-paths-content">
             <div id="services-paths-left">
-              <p id="services-left-head">You already have a design:</p>
+              <p className="services-t-head" id="services-left-head">
+                You already have a design:
+              </p>
               <p id="services-left-one">
                 This means either you or a <br></br>web designer have already{" "}
                 <br></br>created a web design, now you <br></br>just need
@@ -41,7 +41,9 @@ function Services() {
               </p>
             </div>
             <div id="services-paths-right">
-              <p id="services-right-head">You're starting from scratch:</p>
+              <p className="services-t-head" id="services-right-head">
+                You're starting from scratch:
+              </p>
               <p id="services-right-one">
                 {/* This means you have nothing. <br></br> You don't have a design
                 for <br></br> your new website. This <br></br> means you'll not

@@ -77,7 +77,7 @@ function Home() {
         </div>
         <div id="final-button-section">
           <a id="learn-more-button" className="button-style" href="/services">
-            Learn More
+            Services
           </a>
           <a id="contact-button" className="button-style" href="/contact">
             Contact
