@@ -35,3 +35,7 @@
   max-height: 0px;
   transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
+
+#active-sign {
+  font-size: 20px;
+}

@@ -21,7 +21,7 @@ const PathsAccordion = ({ title, content }) => {
       <animated.div className="accordion" style={openAnimation}>
         <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
           <div>{title}</div>
-          <div>{isActive ? "-" : "+"}</div>
+          <div id="active-sign">{isActive ? "-" : "+"}</div>
         </div>
         {isActive && (
           <div className="accordion-content" aria-expanded={!isActive}>
