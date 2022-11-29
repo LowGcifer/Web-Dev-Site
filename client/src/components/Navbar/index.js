@@ -47,7 +47,7 @@ function Navbar() {
       </ul>
       <div className="navbar-mobile">
         <button
-          name="navigation menu"
+          aria-label="navigation menu"
           id="hamburger"
           onClick={toggleNavExpanded}
         >
