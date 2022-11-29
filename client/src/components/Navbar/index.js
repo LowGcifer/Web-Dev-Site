@@ -47,7 +47,7 @@ function Navbar() {
       </ul>
       <div className="navbar-mobile">
         <button
-          alt="navigation menu"
+          name="navigation menu"
           id="hamburger"
           onClick={toggleNavExpanded}
         >
