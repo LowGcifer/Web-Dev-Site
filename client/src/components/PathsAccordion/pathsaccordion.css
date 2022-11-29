@@ -28,6 +28,7 @@
   text-align: center;
   background-color: #4e4848;
   font-family: Kanit;
+  font-size: 16px;
 }
 
 .accordion-content[aria-expanded="true"] {
@@ -37,4 +38,16 @@
 
 #active-sign {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .accordion-content {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .accordion-content {
+    font-size: 16px;
+  }
 }
