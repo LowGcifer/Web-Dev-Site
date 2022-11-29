@@ -334,7 +334,7 @@
 } */
 
 #home-final-section {
-  height: 200px;
+  /* height: 200px; */
   display: flex;
   justify-content: center;
 }
@@ -372,15 +372,7 @@
   #home-final-text {
     /* font-size: 19px; */
     /* font-size: 4.589vw; */
-    font-size: 2rem;
-  }
-
-  #learn-more-button {
-    left: 0px;
-  }
-
-  #contact-button {
-    left: 0px;
+    font-size: 1.5rem;
   }
 
   #final-button-section {
@@ -388,21 +380,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 150px; */
   }
 }
 
 @media only screen and (max-width: 493px) {
   #home-final-section {
     padding-top: 15px;
-    padding-bottom: 75px;
+    /* padding-bottom: 75px; */
   }
 }
 
 @media only screen and (max-width: 411px) {
   #home-final-section {
     padding-top: 15px;
-    padding-bottom: 125px;
+    /* padding-bottom: 125px; */
   }
 }
 
