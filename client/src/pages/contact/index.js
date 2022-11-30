@@ -18,7 +18,7 @@ function Contact() {
             or some other scheduling conflict prevent you <br></br> from
             scheduling a Zoom call with me, then please email me <br></br> at{" "}
             <a href="mailto:logan@929studios.com">logan@929studios.com</a>.
-            Thank you!
+            Thank you! Testing.
           </p>
         </div>
 
