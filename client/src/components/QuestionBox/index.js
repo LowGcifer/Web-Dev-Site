@@ -28,7 +28,7 @@ function QuestionBox() {
           >
             <h2>
               <p>
-                What is project turnaround <br></br>like?
+                What can I expect for <br></br> project turnaround?
               </p>
             </h2>
             {/* <p>Lorem ipsum</p> */}
@@ -91,7 +91,7 @@ function QuestionBox() {
           <button
             onClick={() => {
               setBoxText(
-                "On my Contact page you will find a window to my Calendly. If my calendar is completing blocked off, it means I am not accepting new projects at the moment. When my calendar is open, you can schedule a call and we can discuss your project! "
+                "On my contact page you will find my email as well as a window to schedule a Zoom meeting on my Calendly. I am always down to discuss potential projects! "
               );
               handleClick(5);
             }}
@@ -107,7 +107,7 @@ function QuestionBox() {
         </div>
       </article>
       <div id="answer-box">
-        <p>{boxText}</p>
+        <p id="answer-box-text">{boxText}</p>
       </div>
     </div>
   );

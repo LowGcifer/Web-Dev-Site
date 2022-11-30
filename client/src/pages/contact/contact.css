@@ -37,11 +37,12 @@
   width: 100%;
   text-align: center;
   font-family: Kanit;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 #calendly-container {
   /* width: 750px; */
+  margin-top: 10px;
   height: 700px;
   display: flex;
   justify-content: center;
@@ -57,8 +58,20 @@
   top: 200px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 890px) {
+  #contact-text-area br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #contact-text-area {
+    font-size: 1.2rem;
+  }
+}
+
+/* @media only screen and (max-width: 500px) {
   #contact-head-container {
     height: 250px;
   }
-}
+} */

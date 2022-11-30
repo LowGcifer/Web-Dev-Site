@@ -46,7 +46,11 @@ function Navbar() {
         </li>
       </ul>
       <div className="navbar-mobile">
-        <button id="hamburger" onClick={toggleNavExpanded}>
+        <button
+          aria-label="navigation menu"
+          id="hamburger"
+          onClick={toggleNavExpanded}
+        >
           <Hamburger isOpen={isNavExpanded} />
         </button>
 
@@ -74,20 +78,20 @@ function Navbar() {
 
       <style jsx>
         {`
-          @media (max-width: 1024px) {
+          @media (max-width: 1078px) {
             .navbar-custom ul {
               display: ${isNavExpanded ? "flex" : "none"};
               position: absolute;
               top: 30px;
               right: 0;
-              padding-right: 15px;
+              padding-right: 22.5px;
               flex-direction: column;
               width: 100vw;
               height: 200px;
               background-color: black;
-              border-top: 2px solid #3f58ac;
               justify-content: right;
               align-items: end;
+              font-size: 30px;
             }
           }
         `}

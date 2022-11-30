@@ -9,8 +9,6 @@ import { pathsSections } from "../../utils/content";
 import { questionsAccordionContent } from "../../utils/content";
 
 function Services() {
-  // const
-
   return (
     <div className="default-color">
       <Navbar></Navbar>
@@ -27,7 +25,9 @@ function Services() {
           <div id="services-paths-top-line"></div>
           <div id="services-paths-content">
             <div id="services-paths-left">
-              <p id="services-left-head">You already have a design:</p>
+              <p className="services-t-head" id="services-left-head">
+                You already have a design:
+              </p>
               <p id="services-left-one">
                 This means either you or a <br></br>web designer have already{" "}
                 <br></br>created a web design, now you <br></br>just need
@@ -41,24 +41,33 @@ function Services() {
               </p>
             </div>
             <div id="services-paths-right">
-              <p id="services-right-head">You're starting from scratch:</p>
+              <p className="services-t-head" id="services-right-head">
+                You're starting from scratch:
+              </p>
               <p id="services-right-one">
-                This means you have nothing. <br></br> You don't have a design
+                {/* This means you have nothing. <br></br> You don't have a design
                 for <br></br> your new website. This <br></br> means you'll not
                 only have <br></br> a new website developed, <br></br> but also
-                have one designed.
+                have one designed. */}
+                We break the project into <br></br> two steps, design and
+                <br></br> development. I can handle <br></br> both, or I can
+                refer you to <br></br> one of the incredible designers <br></br>
+                at 929 Studios.
               </p>
               <p id="services-right-two">
-                Luckily for you, I have connections <br></br> to superb web
+                {/* Luckily for you, I have connections <br></br> to superb web
                 designers at <br></br> 929 Studios. I'll connect you <br></br>{" "}
                 with them and they can design <br></br> you a website that'll
-                fit your <br></br> brand.
+                fit your <br></br> brand. */}
+                Once the design is done <br></br> and approved by you, we'll{" "}
+                <br></br> reconvene and come up with <br></br> a quote and
+                turnaround date <br></br> for your website!
               </p>
-              <p id="services-right-three">
+              {/* <p id="services-right-three">
                 After you have a web design from <br></br> 929 Studios, you'll
                 come back here <br></br> to work out a quote and turnaround{" "}
                 <br></br> date for your finished website!
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -90,7 +99,9 @@ function Services() {
           ></img>
         </div>
         <div id="services-question-section">
-          <p id="question-box-header">Some Other Questions You May Have</p>
+          <div id="question-box-header-container">
+            <p id="question-box-header">Some Other Questions You May Have</p>
+          </div>
           <div id="question-box-container">
             <QuestionBox></QuestionBox>
           </div>

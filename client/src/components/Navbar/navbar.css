@@ -15,14 +15,16 @@
 .navbar-custom ul {
   display: flex;
   height: 0px;
-  width: 36rem;
+  /* width: 36rem; */
+  width: 45rem;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
   position: relative;
   font-size: 30px;
   margin-left: auto;
-  font-family: Kanit;
+  /* font-family: Kanit; */
+  font-family: Orbitron;
   background-color: black;
   list-style: none;
 }
@@ -60,10 +62,10 @@
   border-bottom: 2px solid #3f58ac;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
-  .navbar-custom ul {
-    width: 36rem;
-  }
+@media screen and (min-width: 1078px) and (max-width: 1600px) {
+  /* .navbar-custom ul {
+    width: 40rem;
+  } */
 
   /* .navbar-custom {
     height: 60px;
@@ -77,14 +79,10 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1078px) {
   .navbar-mobile {
     display: inline;
-    padding-right: 15px;
-  }
-
-  .navbar-custom {
-    height: 60px;
+    padding-right: 10px;
   }
 
   #logan-home {
@@ -92,6 +90,7 @@
   }
 
   .navbar-custom {
+    height: 60px;
     display: flex;
     justify-content: space-between;
   }
