@@ -5,6 +5,7 @@ import Services from "./pages/services";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 import ScrollToTop from "./components/ScrollToTop";
+import { Analytics } from "@vercel/analytics/react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,6 +18,7 @@ function App() {
     <Router basename="/">
       <div>
         <ScrollToTop />
+        <Analytics />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/services" element={<Services />} />
