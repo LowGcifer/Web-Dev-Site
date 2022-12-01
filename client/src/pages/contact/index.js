@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar";
 import "./contact.css";
 import Calendly from "../../components/Calendly";
+import ContactForm from "../../components/ContactForm";
 
 function Contact() {
   return (
@@ -18,11 +19,11 @@ function Contact() {
             or some other scheduling conflict prevent you <br></br> from
             scheduling a Zoom call with me, then please email me <br></br> at{" "}
             <a href="mailto:logan@929studios.com">logan@929studios.com</a>.
-            Thank you! Testing.
+            Thank you!
           </p>
         </div>
-
         <Calendly></Calendly>
+        <ContactForm></ContactForm>
       </div>
     </div>
   );
