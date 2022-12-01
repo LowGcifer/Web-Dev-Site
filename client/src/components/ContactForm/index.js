@@ -16,24 +16,33 @@ function ContactForm() {
         method="post"
       >
         <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
+          <label className="contact-input-head" for="full-name">
+            Full Name
+          </label>
           <input
+            className="contact-input-text"
             type="text"
             name="name"
             id="full-name"
             placeholder="First and Last"
             required=""
           />
-          <label for="email-address">Email Address</label>
+          <label className="contact-input-head" for="email-address">
+            Email Address
+          </label>
           <input
+            className="contact-input-text"
             type="email"
             name="_replyto"
             id="email-address"
             placeholder="email@domain.tld"
             required=""
           />
-          <label for="message">Message</label>
+          <label className="contact-input-head" for="message">
+            Message
+          </label>
           <textarea
+            className="contact-input-text"
             rows="5"
             name="message"
             id="message"
@@ -47,7 +56,7 @@ function ContactForm() {
             value="Contact Form Submission"
           />
         </fieldset>
-        <input type="submit" value="Submit" />
+        <input className="submit-button" type="submit" value="Submit" />
       </form>
     </div>
   );
