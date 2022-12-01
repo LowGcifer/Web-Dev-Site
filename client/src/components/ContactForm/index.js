@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "./contactform.css";
 
 export default () => {
   const [status, setStatus] = useState({
@@ -60,10 +61,10 @@ export default () => {
   };
   return (
     <main>
-      <h1>React and Formspree</h1>
+      <h1>Or Send an Email!</h1>
       <hr />
       <form onSubmit={handleOnSubmit}>
-        <label htmlFor="email">Email</label>
+        <label htmlFor="email">Your Email</label>
         <input
           id="email"
           type="email"
@@ -72,7 +73,7 @@ export default () => {
           required
           value={inputs.email}
         />
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message">Your Message</label>
         <textarea
           id="message"
           name="message"
