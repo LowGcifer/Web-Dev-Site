@@ -91,6 +91,12 @@ form select {
   width: 500px;
 }
 
+@media only screen and (max-width: 570px) {
+  .input-area {
+    width: 85vw;
+  }
+}
+
 .submit-button-style {
   font-family: Orbitron;
   appearance: button;
