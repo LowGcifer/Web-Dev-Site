@@ -42,8 +42,9 @@
 
 #calendly-container {
   /* width: 750px; */
-  margin-top: 10px;
-  height: 700px;
+  padding-top: 10px;
+  /* height: 700px; */
+  /* padding-bottom: 10px; */
   display: flex;
   justify-content: center;
   /* display: flex;
@@ -75,3 +76,7 @@
     height: 250px;
   }
 } */
+
+.contact-form-area {
+  padding-bottom: 50px;
+}

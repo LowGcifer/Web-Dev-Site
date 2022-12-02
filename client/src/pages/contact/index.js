@@ -22,7 +22,9 @@ function Contact() {
           </p>
         </div>
         <Calendly></Calendly>
-        <ContactForm></ContactForm>
+        <div className="contact-form-area">
+          <ContactForm></ContactForm>
+        </div>
       </div>
     </div>
   );
